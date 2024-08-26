@@ -27,7 +27,11 @@ const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
 app.use(express.json()); // For parsing application/json
-app.use(cors()); // Enable CORS
+app.use(cors({
+  origin: '*', // Adjust this to be more restrictive if needed
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+})); // Enable CORS
 app.use(session({
   store: new pgSession({
     pool: pool,
