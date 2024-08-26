@@ -820,7 +820,6 @@ app.get('/results', async (req, res) => {
 
 app.get('/assessments', async (req, res) => {
   try {
-
     const registration_number = req.session.user ? req.session.user.id : null;
 
     if (!registration_number) {
@@ -828,36 +827,32 @@ app.get('/assessments', async (req, res) => {
       return res.status(400).json({ error: 'Registration number is missing from session' });
     }
 
-    const assessments = await db.any(
-      `SELECT sa.id, sa.student_id, s.name AS student_name, c.code AS course_code, c.name AS course_name,
-              sa.assessment_1, sa.assessment_2, sa.assessment_3, sa.assessment_4, sa.assessment_5, sa.total
-       FROM academics.student_assessments sa
-       JOIN academics.students s ON sa.student_id = s.registration_number
-       JOIN academics.courses c ON sa.course_code = c.code
-       WHERE sa.student_id = $1
-       ORDER BY sa.created_at DESC`,
-      [registration_number]
-    );
+    const query = `
+      SELECT sa.id, sa.student_id, s.name AS student_name, c.code AS course_code, c.name AS course_name,
+             sa.assessment_1, sa.assessment_2, sa.assessment_3, sa.assessment_4, sa.assessment_5, sa.total
+      FROM academics.student_assessments sa
+      JOIN academics.students s ON sa.student_id = s.registration_number
+      JOIN academics.courses c ON sa.course_code = c.code
+      WHERE sa.student_id = $1
+      ORDER BY sa.created_at DESC
+    `;
+
+    console.log('Executing query:', query);
+
+    const { rows: assessments } = await pool.query(query, [registration_number]);
 
     if (assessments.length === 0) {
+      console.log('No assessments found for registration_number:', registration_number);
       return res.status(404).json({ error: 'No assessments found for the current session' });
     }
 
     res.json(assessments);
   } catch (error) {
-    console.error('Error fetching assessments:', error);
-    res.status(500).send('Failed to fetch assessments');
+    console.error('Error fetching assessments:', error.message);
+    res.status(500).json({ error: 'Failed to fetch assessments', details: error.message });
   }
 });
-app.get('/special-days', async (req, res) => {
-  try {
-    const result = await pool.query('SELECT * FROM academics.special_days');
-    res.json(result.rows); // Ensure the result is in JSON format
-  } catch (err) {
-    console.error('Error fetching special days:', err);
-    res.status(500).send('Server error');
-  }
-});
+
 app.get('/events', async (req, res) => {
   try {
     const result = await pool.query('SELECT * FROM academics.special_days');
