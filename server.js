@@ -16,8 +16,12 @@ const WebSocket = require('ws');
 
 
 const pool = new Pool({
-  connectionString:'postgres://postgres:123qwe@localhost:5432/UoZ',
+  connectionString: 'postgres://localhost:NCRVidDgzsWqpQZA7Z49RR3zFGAWcJtq@dpg-cr69udbqf0us73a26bb0-a.oregon-postgres.render.com:5432/uo_z', // Use the environment variable for connection
+  ssl: {
+    rejectUnauthorized: false // Set to true if your server has a valid SSL certificate
+  }
 });
+
 const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
