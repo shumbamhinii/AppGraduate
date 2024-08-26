@@ -1,0 +1,162 @@
+[
+  {
+    "id": 4,
+    "title": "African Architectural Innovations",
+    "author": "Alice Johnson",
+    "publication_date": "2019-12-09T22:00:00.000Z",
+    "resource_type": "eBook",
+    "description": "A detailed exploration of architectural innovations across African countries.",
+    "download_link": "http://example.com/download/ebook2",
+    "preview_link": "http://example.com/preview/ebook2",
+    "department": "Architecture",
+    "keywords": [
+      "architecture",
+      "innovation",
+      "Africa"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Climate Change and Urban Planning",
+    "author": "Peter Brown",
+    "publication_date": "2021-07-21T22:00:00.000Z",
+    "resource_type": "Journal",
+    "description": "An in-depth journal on how climate change affects urban planning in the modern era.",
+    "download_link": "http://example.com/download/journal2",
+    "preview_link": "http://example.com/preview/journal2",
+    "department": "Urban Planning",
+    "keywords": [
+      "climate change",
+      "urban planning",
+      "modern era"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "The Future of Smart Cities",
+    "author": "Mary Davis",
+    "publication_date": "2023-02-13T22:00:00.000Z",
+    "resource_type": "Thesis",
+    "description": "This thesis examines the potential development and challenges of smart cities worldwide.",
+    "download_link": "http://example.com/download/thesis2",
+    "preview_link": "http://example.com/preview/thesis2",
+    "department": "Technology",
+    "keywords": [
+      "smart cities",
+      "technology",
+      "future"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "African Urbanization Trends",
+    "author": "David White",
+    "publication_date": "2018-05-27T22:00:00.000Z",
+    "resource_type": "Journal",
+    "description": "A journal covering the urbanization trends in African countries over the past decade.",
+    "download_link": "http://example.com/download/journal3",
+    "preview_link": "http://example.com/preview/journal3",
+    "department": "Urban Studies",
+    "keywords": [
+      "urbanization",
+      "trends",
+      "Africa"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Green Architecture for the 21st Century",
+    "author": "Sarah Green",
+    "publication_date": "2022-09-09T22:00:00.000Z",
+    "resource_type": "eBook",
+    "description": "An eBook on sustainable architecture practices for the 21st century.",
+    "download_link": "http://example.com/download/ebook3",
+    "preview_link": "http://example.com/preview/ebook3",
+    "department": "Architecture",
+    "keywords": [
+      "green architecture",
+      "sustainability",
+      "21st century"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Transportation Systems in Developing Nations",
+    "author": "Linda Blue",
+    "publication_date": "2020-11-17T22:00:00.000Z",
+    "resource_type": "Thesis",
+    "description": "This thesis analyzes the transportation systems in developing nations with a focus on efficiency and sustainability.",
+    "download_link": "http://example.com/download/thesis3",
+    "preview_link": "http://example.com/preview/thesis3",
+    "department": "Transportation",
+    "keywords": [
+      "transportation",
+      "developing nations",
+      "efficiency"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Urban Migration Patterns in Africa",
+    "author": "George Black",
+    "publication_date": "2019-01-29T22:00:00.000Z",
+    "resource_type": "Journal",
+    "description": "A journal that explores migration patterns within urban areas in Africa.",
+    "download_link": "http://example.com/download/journal4",
+    "preview_link": "http://example.com/preview/journal4",
+    "department": "Sociology",
+    "keywords": [
+      "urban migration",
+      "Africa",
+      "sociology"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Journal of Urban Systems and Innovations for Resilience in Zimbabwe",
+    "author": "Department of Architecture & Real Estate",
+    "publication_date": "2022-06-22T22:00:00.000Z",
+    "resource_type": "Journal",
+    "description": "This journal discusses urban resilience in Zimbabwe with a focus on multidisciplinary engagement.",
+    "download_link": "https://drive.google.com/file/d/1M_pJc3kQI6fZpJsu6crZ6LzEDVv7pIn7/view?usp=sharing",
+    "preview_link": "https://drive.google.com/file/d/1M_pJc3kQI6fZpJsu6crZ6LzEDVv7pIn7/view?usp=sharing",
+    "department": "Architecture & Real Estate",
+    "keywords": [
+      "urban resilience",
+      "Zimbabwe",
+      "multidisciplinary"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Principles of Urban Economics",
+    "author": "Jane Doe",
+    "publication_date": "2021-03-14T22:00:00.000Z",
+    "resource_type": "eBook",
+    "description": "This book explores the economic principles behind urban development and planning.",
+    "download_link": "https://drive.google.com/file/d/1OCZB8GEEggzze87RDFiralBOBdIn3vwW/view?usp=sharing",
+    "preview_link": "https://drive.google.com/file/d/1OCZB8GEEggzze87RDFiralBOBdIn3vwW/view?usp=sharing",
+    "department": "Economics",
+    "keywords": [
+      "urban economics",
+      "development",
+      "planning"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Sustainable Development in African Cities",
+    "author": "John Smith",
+    "publication_date": "2020-10-04T22:00:00.000Z",
+    "resource_type": "Thesis",
+    "description": "This thesis focuses on sustainable development practices in various African cities.",
+    "download_link": "https://drive.google.com/file/d/1OCZB8GEEggzze87RDFiralBOBdIn3vwW/view?usp=sharing",
+    "preview_link": "https://drive.google.com/file/d/1OCZB8GEEggzze87RDFiralBOBdIn3vwW/view?usp=sharing",
+    "department": "Environmental Science",
+    "keywords": [
+      "sustainability",
+      "African cities",
+      "development"
+    ]
+  }
+]

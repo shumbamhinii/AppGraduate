@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Artificial Intelligence",
+    "description": "A comprehensive study on the advancements and applications of artificial intelligence across various industries.",
+    "download_link": "https://drive.google.com/file/d/13rwqmGrhWGlbdYndgn030EuCQXpb6SZd/view?usp=drive_link"
+  },
+  {
+    "id": 2,
+    "name": "Artificial Intelligence",
+    "description": "A comprehensive study on the advancements and applications of artificial intelligence across various industries.",
+    "download_link": "https://drive.google.com/file/d/13rwqmGrhWGlbdYndgn030EuCQXpb6SZd/view?usp=drive_link"
+  },
+  {
+    "id": 3,
+    "name": "Quantum Computing",
+    "description": "Exploration of quantum computing principles, technologies, and their potential impact on computational science.",
+    "download_link": "https://drive.google.com/file/d/13rwqmGrhWGlbdYndgn030EuCQXpb6SZd/view?usp=drive_link"
+  },
+  {
+    "id": 4,
+    "name": "Renewable Energy",
+    "description": "Research on innovative renewable energy sources and their role in sustainable development and environmental conservation.",
+    "download_link": "https://drive.google.com/file/d/13rwqmGrhWGlbdYndgn030EuCQXpb6SZd/view?usp=drive_link"
+  },
+  {
+    "id": 5,
+    "name": "Biomedical Engineering",
+    "description": "Study of biomedical engineering techniques and their application in improving healthcare technologies and treatments.",
+    "download_link": "https://drive.google.com/file/d/13rwqmGrhWGlbdYndgn030EuCQXpb6SZd/view?usp=drive_link"
+  },
+  {
+    "id": 6,
+    "name": "Climate Change",
+    "description": "Investigation into the causes, effects, and mitigation strategies related to climate change and its global impact.",
+    "download_link": "https://drive.google.com/file/d/13rwqmGrhWGlbdYndgn030EuCQXpb6SZd/view?usp=drive_link"
+  },
+  {
+    "id": 7,
+    "name": "Blockchain Technology",
+    "description": "Examination of blockchain technology fundamentals, applications, and its potential to revolutionize various sectors.",
+    "download_link": "https://drive.google.com/file/d/13rwqmGrhWGlbdYndgn030EuCQXpb6SZd/view?usp=drive_link"
+  }
+]

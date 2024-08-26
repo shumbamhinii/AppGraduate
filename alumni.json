@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Tendai Biti",
+    "profession": "Politician",
+    "achievements": "Former Minister of Finance, MDC-T leader",
+    "graduation_year": 1998,
+    "image_url": "https://example.com/images/tendai_biti.jpg",
+    "success_story": "Dr. Tendai Biti has been a prominent figure in Zimbabwean politics, known for his tenure as Minister of Finance where he spearheaded crucial economic reforms. His efforts in stabilizing the Zimbabwean economy during a period of hyperinflation earned him recognition both locally and internationally. Beyond politics, Dr. Biti has been a vocal advocate for human rights and democratic reforms in Zimbabwe. His leadership and advocacy have significantly influenced the political landscape of the country."
+  },
+  {
+    "id": 2,
+    "name": "Dr. Grace Mugabe",
+    "profession": "Academic",
+    "achievements": "Former First Lady of Zimbabwe, Education Advocate",
+    "graduation_year": 1997,
+    "image_url": "https://example.com/images/grace_mugabe.jpg",
+    "success_story": "Dr. Grace Mugabe, despite her controversial role as First Lady, has made significant contributions to education in Zimbabwe. She established numerous educational institutions and scholarship programs aimed at empowering young women and underprivileged students. Her efforts in promoting education have impacted countless lives and contributed to the advancement of educational opportunities in Zimbabwe."
+  },
+  {
+    "id": 3,
+    "name": "Prof. Arthur Mutambara",
+    "profession": "Academic and Politician",
+    "achievements": "Former Deputy Prime Minister, Robotics Expert",
+    "graduation_year": 1994,
+    "image_url": "https://example.com/images/arthur_mutambara.jpg",
+    "success_story": "Prof. Arthur Mutambara is a renowned academic and political leader, known for his contributions to robotics and technology. As a former Deputy Prime Minister, he played a key role in Zimbabwe’s political sphere, advocating for democratic reforms and economic development. His expertise in robotics and technology has garnered international acclaim, positioning him as a leading voice in advancing technological innovation in Zimbabwe and beyond."
+  },
+  {
+    "id": 4,
+    "name": "Dr. John Mangudya",
+    "profession": "Economist",
+    "achievements": "Governor of the Reserve Bank of Zimbabwe",
+    "graduation_year": 1985,
+    "image_url": "https://example.com/images/john_mangudya.jpg",
+    "success_story": "Dr. John Mangudya has been instrumental in shaping Zimbabwe’s monetary policy as the Governor of the Reserve Bank. His tenure has been marked by efforts to stabilize the country’s financial system and implement economic reforms. Dr. Mangudya’s work has been critical in addressing the challenges faced by Zimbabwe’s economy and has earned him recognition as a key figure in economic development."
+  },
+  {
+    "id": 5,
+    "name": "Dr. Shingi Munyeza",
+    "profession": "Businessman",
+    "achievements": "Founder of Harvest House International",
+    "graduation_year": 1993,
+    "image_url": "https://example.com/images/shingi_munyeza.jpg",
+    "success_story": "Dr. Shingi Munyeza is a prominent businessman and philanthropist, known for founding Harvest House International, a leading organization in Zimbabwe. His contributions to business and community development have been substantial, with significant investments in various sectors including education and healthcare. Dr. Munyeza’s entrepreneurial spirit and philanthropic efforts have positively impacted many lives in Zimbabwe."
+  },
+  {
+    "id": 6,
+    "name": "Dr. Kuda Tagwirei",
+    "profession": "Entrepreneur",
+    "achievements": "Founder of Sakunda Holdings",
+    "graduation_year": 1995,
+    "image_url": "https://example.com/images/kuda_tagwirei.jpg",
+    "success_story": "Dr. Kuda Tagwirei is a leading entrepreneur and founder of Sakunda Holdings, a major player in Zimbabwe’s energy sector. His investments have been pivotal in addressing the country’s energy needs and supporting infrastructure development. Dr. Tagwirei’s entrepreneurial success and commitment to national development have positioned him as a key figure in Zimbabwe’s business community."
+  },
+  {
+    "id": 7,
+    "name": "Dr. Chipo Chikadzi",
+    "profession": "Lawyer",
+    "achievements": "Human Rights Advocate, Chief Magistrate",
+    "graduation_year": 2002,
+    "image_url": "https://example.com/images/chipo_chikadzi.jpg",
+    "success_story": "Dr. Chipo Chikadzi is a distinguished lawyer and human rights advocate, serving as Chief Magistrate in Zimbabwe. Her career has been dedicated to advancing human rights and justice, with a focus on legal reforms and equitable access to justice. Dr. Chikadzi’s work has had a profound impact on the legal system in Zimbabwe, promoting fairness and accountability."
+  },
+  {
+    "id": 8,
+    "name": "Prof. Mthuli Ncube",
+    "profession": "Economist",
+    "achievements": "Minister of Finance and Economic Development",
+    "graduation_year": 1990,
+    "image_url": "https://example.com/images/mthuli_ncube.jpg",
+    "success_story": "Prof. Mthuli Ncube is an influential economist and current Minister of Finance and Economic Development in Zimbabwe. His work in economic policy has been crucial in shaping the country’s financial strategies and development plans. Prof. Ncube’s expertise in economics and finance has earned him recognition for his contributions to Zimbabwe’s economic growth and stability."
+  },
+  {
+    "id": 9,
+    "name": "Dr. Mufuka Munetsi",
+    "profession": "Engineer",
+    "achievements": "Innovator in Solar Energy Solutions",
+    "graduation_year": 1987,
+    "image_url": "https://example.com/images/mufuka_munetsi.jpg",
+    "success_story": "Dr. Mufuka Munetsi is an esteemed engineer and innovator in solar energy solutions. His contributions to sustainable energy development have been significant, with a focus on improving access to renewable energy sources in Zimbabwe. Dr. Munetsi’s work has played a key role in advancing environmental sustainability and addressing energy challenges in the country."
+  },
+  {
+    "id": 10,
+    "name": "Dr. Lillian Maseko",
+    "profession": "Doctor",
+    "achievements": "Renowned Surgeon and Health Advocate",
+    "graduation_year": 1998,
+    "image_url": "https://example.com/images/lillian_maseko.jpg",
+    "success_story": "Dr. Lillian Maseko is a renowned surgeon and health advocate, known for her exceptional contributions to medical practice and healthcare in Zimbabwe. Her work as a surgeon has been marked by precision and dedication, and her advocacy for improved healthcare services has had a positive impact on the medical field. Dr. Maseko’s commitment to health and wellness continues to inspire many in Zimbabwe and beyond."
+  },
+  {
+    "id": 11,
+    "name": "Dr. Nelson Chamisa",
+    "profession": "Politician",
+    "achievements": "Leader of MDC Alliance",
+    "graduation_year": 2002,
+    "image_url": "https://example.com/images/nelson_chamisa.jpg",
+    "success_story": "Dr. Nelson Chamisa is a prominent political leader and current leader of the MDC Alliance. His efforts in advocating for democratic reforms and political change have been central to his career. Dr. Chamisa’s leadership and commitment to democratic values have made him a key figure in Zimbabwean politics, influencing the country’s political landscape."
+  },
+  {
+    "id": 12,
+    "name": "Dr. Walter Mzembi",
+    "profession": "Politician",
+    "achievements": "Former Minister of Tourism",
+    "graduation_year": 1990,
+    "image_url": "https://example.com/images/walter_mzembi.jpg",
+    "success_story": "Dr. Walter Mzembi has been a significant figure in Zimbabwe’s tourism sector, serving as Minister of Tourism and promoting the country as a global tourism destination. His initiatives have contributed to the growth of the tourism industry and the development of infrastructure. Dr. Mzembi’s work has had a lasting impact on Zimbabwe’s tourism and economic development."
+  },
+  {
+    "id": 13,
+    "name": "Prof. Vusimuzi Madonsela",
+    "profession": "Academic",
+    "achievements": "Renowned Scholar in African Studies",
+    "graduation_year": 1982,
+    "image_url": "https://example.com/images/vusimuzi_madonsela.jpg",
+    "success_story": "Prof. Vusimuzi Madonsela is a distinguished academic and scholar in African Studies. His research and contributions to understanding African socio-economic and cultural issues have been widely recognized. Prof. Madonsela’s academic work has enriched the field of African studies and has influenced both local and international scholarship."
+  },
+  {
+    "id": 14,
+    "name": "Dr. Doreen Sibanda",
+    "profession": "Research Scientist",
+    "achievements": "Notable Researcher in Agricultural Development",
+    "graduation_year": 1994,
+    "image_url": "https://example.com/images/doreen_sibanda.jpg",
+    "success_story": "Dr. Doreen Sibanda is a notable research scientist specializing in agricultural development. Her research has focused on improving agricultural practices and food security in Zimbabwe. Dr. Sibanda’s work has contributed to advancements in farming techniques and sustainable agriculture, benefiting many farmers and communities."
+  },
+  {
+    "id": 15,
+    "name": "Prof. Peter Kagwanja",
+    "profession": "Political Analyst",
+    "achievements": "Distinguished Scholar in African Politics",
+    "graduation_year": 1990,
+    "image_url": "https://example.com/images/peter_kagwanja.jpg",
+    "success_story": "Prof. Peter Kagwanja is a distinguished scholar in African politics, known for his insightful analysis and research on political dynamics in Africa. His contributions to political science have provided valuable perspectives on governance and development. Prof. Kagwanja’s work has influenced policy discussions and academic research on African political issues."
+  },
+  {
+    "id": 16,
+    "name": "Dr. Farai Mungoshi",
+    "profession": "Author",
+    "achievements": "Famous Zimbabwean Novelist",
+    "graduation_year": 1985,
+    "image_url": "https://example.com/images/farai_mungoshi.jpg",
+    "success_story": "Dr. Farai Mungoshi is a renowned Zimbabwean author known for his impactful novels that reflect Zimbabwean culture and societal issues. His literary works have gained acclaim for their storytelling and exploration of complex themes. Dr. Mungoshi’s contributions to literature have enriched Zimbabwe’s cultural heritage."
+  },
+  {
+    "id": 17,
+    "name": "Dr. Tambudzai Mutasa",
+    "profession": "Academic",
+    "achievements": "Leading Researcher in Gender Studies",
+    "graduation_year": 1998,
+    "image_url": "https://example.com/images/tambudzai_mutasa.jpg",
+    "success_story": "Dr. Tambudzai Mutasa is a leading researcher in gender studies, recognized for her work on gender equality and women’s empowerment. Her research has contributed to important discussions on gender issues and has influenced policy and academic perspectives. Dr. Mutasa’s work has made a significant impact on gender studies and advocacy."
+  },
+  {
+    "id": 18,
+    "name": "Prof. Edwin M. Mujuru",
+    "profession": "Scientist",
+    "achievements": "Pioneer in Agricultural Engineering",
+    "graduation_year": 1992,
+    "image_url": "https://example.com/images/edwin_mujuru.jpg",
+    "success_story": "Prof. Edwin M. Mujuru is a pioneering scientist in agricultural engineering, known for his innovations in farming technologies. His work has advanced agricultural practices and improved productivity in Zimbabwe. Prof. Mujuru’s contributions have supported sustainable agriculture and the development of effective farming solutions."
+  },
+  {
+    "id": 19,
+    "name": "Dr. Juliet Wanjiku",
+    "profession": "Economist",
+    "achievements": "Economic Policy Advisor, Global Development Expert",
+    "graduation_year": 1988,
+    "image_url": "https://example.com/images/juliet_wanjiku.jpg",
+    "success_story": "Dr. Juliet Wanjiku is a respected economist and global development expert, known for her work in economic policy and development strategies. Her expertise has informed policy decisions and development initiatives worldwide. Dr. Wanjiku’s contributions have had a positive impact on economic development and global policy discussions."
+  },
+  {
+    "id": 20,
+    "name": "Dr. Brian Mushonga",
+    "profession": "Media Personality",
+    "achievements": "Notable Television Host and Journalist",
+    "graduation_year": 1997,
+    "image_url": "https://example.com/images/brian_mushonga.jpg",
+    "success_story": "Dr. Brian Mushonga is a prominent media personality, recognized for his work as a television host and journalist. His career in media has been marked by insightful reporting and engaging presentations. Dr. Mushonga’s influence in media and journalism has shaped public discourse and provided valuable information to audiences."
+  },
+  {
+    "id": 21,
+    "name": "Prof. Lovemore Madhuku",
+    "profession": "Law Professor",
+    "achievements": "Founding Director of the Constitutional Law Centre",
+    "graduation_year": 1986,
+    "image_url": "https://example.com/images/lovemore_madhuku.jpg",
+    "success_story": "Prof. Lovemore Madhuku is a leading law professor and the founding director of the Constitutional Law Centre. His expertise in constitutional law and legal reform has significantly contributed to the development of legal frameworks in Zimbabwe. Prof. Madhuku’s work has influenced legal scholarship and the advancement of constitutional governance."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Academic Policies",
+    "description": "Guidelines on course registration, grading, academic integrity, and graduation requirements.",
+    "details": "Academic policies provide detailed guidelines on course registration, grading systems, academic integrity policies, and graduation requirements. These policies ensure that academic standards are maintained and that students are aware of their responsibilities and the criteria for academic success.",
+    "category": "Academic",
+    "last_updated": "2024-08-07T12:04:46.854Z"
+  },
+  {
+    "id": 2,
+    "title": "Student Conduct and Disciplinary Policies",
+    "description": "Rules regarding student behavior, disciplinary procedures, and appeals.",
+    "details": "These policies outline the expected standards of student behavior and the procedures for handling disciplinary issues. They cover topics such as academic dishonesty, harassment, substance abuse, and other forms of misconduct. The policies also detail the process for disciplinary hearings and appeals.",
+    "category": "Student Conduct",
+    "last_updated": "2024-08-07T12:04:46.854Z"
+  },
+  {
+    "id": 3,
+    "title": "Financial Policies",
+    "description": "Information on tuition fees, scholarships, financial aid, and refund policies.",
+    "details": "Financial policies provide comprehensive information on tuition fees, payment deadlines, available scholarships, financial aid options, and refund policies. They are designed to help students understand the financial obligations and support available to them.",
+    "category": "Financial",
+    "last_updated": "2024-08-07T12:04:46.854Z"
+  },
+  {
+    "id": 4,
+    "title": "Campus Safety and Security",
+    "description": "Procedures and rules for maintaining safety on campus, including emergency protocols.",
+    "details": "Campus safety and security policies include procedures for maintaining a safe and secure environment on campus. They cover emergency protocols, crime reporting, safety measures, and resources available to students and staff for ensuring their safety.",
+    "category": "Safety",
+    "last_updated": "2024-08-07T12:04:46.854Z"
+  },
+  {
+    "id": 5,
+    "title": "Health and Wellness Policies",
+    "description": "Guidelines related to student health services, mental health support, and wellness programs.",
+    "details": "Health and wellness policies provide guidelines on the health services available to students, including medical care, mental health support, and wellness programs. They aim to promote the physical and mental well-being of students.",
+    "category": "Health",
+    "last_updated": "2024-08-07T12:04:46.854Z"
+  },
+  {
+    "id": 6,
+    "title": "Research Policies",
+    "description": "Rules and regulations governing research activities, ethics, and publication.",
+    "details": "Research policies outline the rules and regulations governing research activities at the university. They cover topics such as research ethics, compliance with legal and institutional requirements, and guidelines for publication and dissemination of research findings.",
+    "category": "Research",
+    "last_updated": "2024-08-07T12:04:46.854Z"
+  },
+  {
+    "id": 7,
+    "title": "Administrative Policies",
+    "description": "Policies related to university administration, including staff conduct and administrative procedures.",
+    "details": "Administrative policies include guidelines on staff conduct, administrative procedures, and the organizational structure of the university. They ensure that administrative processes are conducted efficiently and ethically.",
+    "category": "Administrative",
+    "last_updated": "2024-08-07T12:04:46.854Z"
+  },
+  {
+    "id": 8,
+    "title": "Housing and Residential Life Policies",
+    "description": "Rules governing on-campus housing, including lease agreements and residential conduct.",
+    "details": "Housing and residential life policies provide rules and guidelines for students living on campus. They cover topics such as lease agreements, room assignments, residential conduct, and the services available to residents.",
+    "category": "Housing",
+    "last_updated": "2024-08-07T12:04:46.854Z"
+  }
+]

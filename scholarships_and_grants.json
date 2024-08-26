@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "African Development Bank (AfDB) Scholarships",
+    "description": "Supports postgraduate students in various fields, including engineering, economics, and technology. The scholarship covers tuition fees, travel, and subsistence costs.",
+    "amount": "Varies",
+    "apply_link": "https://www.afdb.org/en/knowledge/publications/afdb-scholarships",
+    "eligibility_criteria": "Must be a national of an African member country. Applicants must have an excellent academic record and relevant professional experience.",
+    "application_deadline": "2024-12-30T22:00:00.000Z",
+    "duration": "Varies by program",
+    "fields_of_study": "Engineering, Economics, Technology, and related fields"
+  },
+  {
+    "id": 2,
+    "name": "Zimbabwe Presidential Scholarship",
+    "description": "Scholarships for Zimbabwean students pursuing undergraduate or postgraduate studies abroad. Covers tuition fees and living expenses.",
+    "amount": "Varies",
+    "apply_link": "http://www.zimscholarships.org/",
+    "eligibility_criteria": "Must be a Zimbabwean national with high academic performance. Preference for students in STEM fields.",
+    "application_deadline": "2024-08-30T22:00:00.000Z",
+    "duration": "4 years (Undergraduate), 2 years (Postgraduate)",
+    "fields_of_study": "STEM fields, but open to other disciplines"
+  },
+  {
+    "id": 3,
+    "name": "Chevening Scholarships",
+    "description": "Funded by the UK Government, covering tuition fees, airfare, and a living allowance for one-year postgraduate studies in the UK.",
+    "amount": "Full coverage",
+    "apply_link": "https://www.chevening.org/",
+    "eligibility_criteria": "Applicants must be a citizen of a Chevening-eligible country and have at least two years of work experience.",
+    "application_deadline": "2024-11-06T22:00:00.000Z",
+    "duration": "1 year",
+    "fields_of_study": "All fields"
+  },
+  {
+    "id": 5,
+    "name": "The DAAD Scholarship Program",
+    "description": "Offers scholarships for postgraduate studies and research in Germany. Includes full tuition, living expenses, and travel costs.",
+    "amount": "Full coverage",
+    "apply_link": "https://www.daad.de/en/study-and-research-in-germany/scholarships/",
+    "eligibility_criteria": "Must be a graduate with a relevant academic background and professional experience.",
+    "application_deadline": "2024-09-29T22:00:00.000Z",
+    "duration": "1 to 3 years",
+    "fields_of_study": "All fields"
+  },
+  {
+    "id": 7,
+    "name": "Commonwealth Scholarships",
+    "description": "Offers postgraduate scholarships to students from low and middle-income Commonwealth countries. Covers tuition fees and travel expenses.",
+    "amount": "Full coverage",
+    "apply_link": "http://cscuk.dfid.gov.uk/apply/",
+    "eligibility_criteria": "Must be a citizen of a Commonwealth country with an offer of admission at a UK university.",
+    "application_deadline": "2024-11-30T22:00:00.000Z",
+    "duration": "1 to 3 years",
+    "fields_of_study": "All fields"
+  },
+  {
+    "id": 9,
+    "name": "SACMEQ Scholarships",
+    "description": "Supports education and research in Southern Africa. Focuses on improving the quality of education through funding for research and training.",
+    "amount": "Varies",
+    "apply_link": "https://www.sacmeq.org/scholarships",
+    "eligibility_criteria": "Must be a citizen of a SACMEQ member country with a focus on education.",
+    "application_deadline": "2024-04-29T22:00:00.000Z",
+    "duration": "Varies",
+    "fields_of_study": "Education and related fields"
+  },
+  {
+    "id": 10,
+    "name": "Japanese Government (MEXT) Scholarships",
+    "description": "Offers scholarships for undergraduate and postgraduate studies in Japan, including tuition, living expenses, and travel.",
+    "amount": "Full coverage",
+    "apply_link": "https://www.studyinjapan.go.jp/en/smap-stopj-applications-mext/",
+    "eligibility_criteria": "Must be a citizen of a foreign country with a strong academic background.",
+    "application_deadline": "2024-05-14T22:00:00.000Z",
+    "duration": "4 years (Undergraduate), 2 years (Postgraduate)",
+    "fields_of_study": "All fields"
+  },
+  {
+    "id": 11,
+    "name": "African Development Bank (AfDB) Scholarships",
+    "description": "Supports postgraduate students in various fields, including engineering, economics, and technology. The scholarship covers tuition fees, travel, and subsistence costs.",
+    "amount": "Varies",
+    "apply_link": "https://www.afdb.org/en/knowledge/publications/afdb-scholarships",
+    "eligibility_criteria": "Must be a national of an African member country. Applicants must have an excellent academic record and relevant professional experience.",
+    "application_deadline": "2024-12-30T22:00:00.000Z",
+    "duration": "Varies by program",
+    "fields_of_study": "Engineering, Economics, Technology, and related fields"
+  },
+  {
+    "id": 12,
+    "name": "Aga Khan Foundation International Scholarship Programme",
+    "description": "Provides scholarships for postgraduate studies with a focus on development and education in East Africa, Central Asia, and South Asia.",
+    "amount": "Varies",
+    "apply_link": "https://www.akdn.org/our-agencies/aga-khan-foundation/international-scholarship-programme",
+    "eligibility_criteria": "Must be from East Africa, Central Asia, or South Asia with strong academic performance and leadership potential.",
+    "application_deadline": "2024-06-29T22:00:00.000Z",
+    "duration": "2 years",
+    "fields_of_study": "Development, Education, and related fields"
+  },
+  {
+    "id": 13,
+    "name": "The DAAD Scholarship Program",
+    "description": "Offers scholarships for postgraduate studies and research in Germany. Includes full tuition, living expenses, and travel costs.",
+    "amount": "Full coverage",
+    "apply_link": "https://www.daad.de/en/study-and-research-in-germany/scholarships/",
+    "eligibility_criteria": "Must be a graduate with a relevant academic background and professional experience.",
+    "application_deadline": "2024-09-29T22:00:00.000Z",
+    "duration": "1 to 3 years",
+    "fields_of_study": "All fields"
+  }
+]

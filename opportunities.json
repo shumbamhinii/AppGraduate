@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Zimbabwe Entrepreneurship Program",
+    "category": "Mentorships",
+    "mentor": "Dr. Chido Munemo",
+    "company": "Zimbabwe Entrepreneurship Hub",
+    "description": "A program for budding entrepreneurs to receive guidance and support.",
+    "download_link": "http://www.zimentrepreneurship.org"
+  },
+  {
+    "id": 2,
+    "name": "Women in Tech Zimbabwe",
+    "category": "Mentorships",
+    "mentor": "Sibusisiwe Ndlovu",
+    "company": "Tech Women Zimbabwe",
+    "description": "Empowering women in technology through mentorship and workshops.",
+    "download_link": "http://www.techwomenzim.org"
+  },
+  {
+    "id": 3,
+    "name": "Engineering Internship at ZESA",
+    "category": "Internships",
+    "mentor": null,
+    "company": "ZESA Holdings",
+    "description": "Hands-on experience in electrical engineering and energy sector.",
+    "download_link": "http://www.zesa.co.zw"
+  },
+  {
+    "id": 4,
+    "name": "Marketing Internship at Delta Beverages",
+    "category": "Internships",
+    "mentor": null,
+    "company": "Delta Beverages",
+    "description": "Gain experience in marketing strategies and campaign management.",
+    "download_link": "http://www.delta.co.zw"
+  },
+  {
+    "id": 5,
+    "name": "Finance and Accounting Internship at CBZ Holdings",
+    "category": "Internships",
+    "mentor": null,
+    "company": "CBZ Holdings",
+    "description": "Learn and work in finance and accounting departments.",
+    "download_link": "http://www.cbz.co.zw"
+  },
+  {
+    "id": 6,
+    "name": "Journalism Fellowship at The Herald",
+    "category": "Internships",
+    "mentor": null,
+    "company": "The Herald",
+    "description": "A fellowship for aspiring journalists to gain real-world newsroom experience.",
+    "download_link": "http://www.herald.co.zw"
+  },
+  {
+    "id": 7,
+    "name": "Software Development Bootcamp by Techzim",
+    "category": "Mentorships",
+    "mentor": "Tendai Madziwanyika",
+    "company": "Techzim",
+    "description": "Intensive bootcamp focusing on software development and coding skills.",
+    "download_link": "http://www.techzim.co.zw"
+  },
+  {
+    "id": 8,
+    "name": "Legal Internship at Zimbabwe Human Rights Commission",
+    "category": "Internships",
+    "mentor": null,
+    "company": "Zimbabwe Human Rights Commission",
+    "description": "Opportunity to work in the field of human rights and legal advocacy.",
+    "download_link": "http://www.zhrc.org.zw"
+  },
+  {
+    "id": 9,
+    "name": "Agricultural Management Training at Agribank",
+    "category": "Mentorships",
+    "mentor": "Fiona Maseko",
+    "company": "Agribank",
+    "description": "Training and mentorship in agricultural management and finance.",
+    "download_link": "http://www.agribank.co.zw"
+  },
+  {
+    "id": 10,
+    "name": "Renewable Energy Internship at ZERA",
+    "category": "Internships",
+    "mentor": null,
+    "company": "Zimbabwe Energy Regulatory Authority",
+    "description": "Internship focused on renewable energy projects and regulatory practices.",
+    "download_link": "http://www.zera.co.zw"
+  },
+  {
+    "id": 11,
+    "name": "",
+    "category": "News",
+    "mentor": null,
+    "company": "The Zimbabwean",
+    "description": "",
+    "download_link": "https://www.thezimbabwean.co/2024/08/urgent-action-urgent-action-end-crackdown-on-activists-and-opposition-second-ua-zimbabwe-66-24/"
+  }
+]

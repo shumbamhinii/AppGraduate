@@ -1,0 +1,44 @@
+[
+  {
+    "id": 2,
+    "name": "Dr. Jane Doe",
+    "specialties": "Personal Counseling, Career Counseling",
+    "qualifications": "Ph.D. in Psychology, Certified Career Counselor",
+    "avatar": null
+  },
+  {
+    "id": 3,
+    "name": "Dr. John Smith",
+    "specialties": "Personal Counseling, Academic Counseling",
+    "qualifications": "Ph.D. in Counseling Psychology",
+    "avatar": null
+  },
+  {
+    "id": 4,
+    "name": "Dr. Emily Johnson",
+    "specialties": "Career Counseling, Family Counseling",
+    "qualifications": "M.S. in Clinical Psychology, Certified Family Therapist",
+    "avatar": null
+  },
+  {
+    "id": 5,
+    "name": "Dr. Michael Brown",
+    "specialties": "Personal Counseling, Academic Counseling",
+    "qualifications": "Ph.D. in Educational Psychology",
+    "avatar": null
+  },
+  {
+    "id": 6,
+    "name": "Dr. Sarah Davis",
+    "specialties": "Personal Counseling, Career Counseling",
+    "qualifications": "Ph.D. in Clinical Psychology",
+    "avatar": null
+  },
+  {
+    "id": 7,
+    "name": "Dr. William Martinez",
+    "specialties": "Personal Counseling, Relationship Counseling",
+    "qualifications": "Ph.D. in Counseling Psychology",
+    "avatar": null
+  }
+]

@@ -1,0 +1,389 @@
+Message: Hey
+Response:  Hi, how are you? I just got back from walking my dog. Do you have any pets?
+
+Message: I have missing courses
+Response: Please provide your registration number.
+
+Message: R231602U
+Response:  Have you ever heard of R21? It's an aircraft engine manufactured by General Motors.
+
+Message: Hey
+Response:  Hi, how are you? I just got back from walking my dog. Do you have any pets?
+
+Message: R231602U
+Response:  Have you ever heard of R21? It's an aircraft engine manufactured by General Motors.
+
+Message: I cant see some  pf the courses i registered
+Response:  I'm sorry to hear that.  What courses are you taking?  Are they difficult?
+
+Message: Hie
+Response:  Have you ever heard of the song "Hie" by the Rolling Stones?
+
+Message: Hie
+Response: Hie is forming his own social network'.
+
+Growth pipped beyond the radar of the Moon Surveyor programme, and as a school they were principally interested in astronomy. Rosetta and Galileo, however, saw that the possibilities of landing a'soft landing' on a celestial body lay, if Dicky had his wish, in the Moon – and astrology had passed to the fore. By the early 1920s, those uneasy at having wasted time on Mercators, Galleons and Legh
+
+Message: R231602U
+Response: R231602U represent the creation of Federal Law Database 15797. In addition we have found four cases having that Title which as in the present instance constitutes the creation of Federal Law Database 16193. Since each of such courts misidentified as their interest as clear the type of Federal law to be handled (the decision in the cases on ratification could not be considered as Federal Law Database). In accordance with the ordinary customs and usages of the courts; we have processed the cases and reports under Federal Law DatabaseA far as
+
+Message: Hie
+Response: Hie, Hie, Hie, Hie, Hie, Hie, Hi
+
+Message: How are you
+Response: I'm a little bit nervous.
+
+Message: Why?
+Response: a symphony orchestra
+
+Message: What about it
+Response: It's a shit.
+
+Message: Hey
+Response: Heytec. Yeye CH baby
+
+Message: How are you
+Response: How are you the only person you know. I refuse to meet her lately and know nothing about her. I think you're just jelly. Maybe you should start out.
+
+Message: Fuck
+Response: Fuck so disgusting lol
+
+Message: Who made you
+Response: Who made you a picture 5 with a wine
+
+Message: Hey
+Response: Hey, you know what?
+I think I got something.
+I think I got something.
+I think I
+
+Message: How are you
+Response: How are you?
+- I'm fine.
+- How are you?
+- I'm fine.
+- How are you?
+-
+
+Message: I'm okay thanks how are you
+Response: I'm okay thanks how are you?
+I'm fine
+I just wanted to say that I was sorry about the other day
+I was
+
+Message: What?
+Response: What?"
+
+"It is a very simple matter," said the doctor, with a smile. "I
+
+Message: Hey
+Response: Hey there, people of the web! I'm glad we're still connected here, even if it's through a virtual space. I hope this virtual Connection finds you well. I wanted to share something special that's been on my heart recently: the importance of creating a vibrant and satisfying work-life integration - not work-life balance.
+
+Balance, as we know it, implies an equal amount of time and attention given to each aspect of our lives. But, let
+
+Message: Whats your name
+Response: Whats your name and whats your gym ?
+
+My name is Rolando and I'm from Georgetown, Guyana South America, but I live and train in USA.
+
+My gym is a private training facility in Pearland, Texas call ed "Texas Elite" .
+
+What gym have you trained at before Texas Elite ?
+
+Before Texas Elite I've trained at a few other gym's here in Pearland, but I didn't find
+
+Message: What is artificial intelligence
+Response: What is artificial intelligence?
+
+Artificial intelligence (AI) is a technology that enables machines to perform intelligent tasks, such as learning and reasoning, without human intervention. AI systems can analyze data, recognize patterns, make decisions, and even interact with humans, relying on algorithms, neural networks, and deep learning. From basic applications, such as voice recognition and language translation, to more complex applications in autonomous vehicles and robotics, AI is transforming the way we live and interact with technology.
+
+What
+
+Message: Hugging face is a company
+Response: Hugging face is a company specialized in natural language processing using machine learning and deep learning. It offers several software and models around text generation, translation, and summarization.
+
+I created a Delphi application which uses Hugging face Quantization Transformers lib to run a model that translates English -> French text. This application is a simple descendant of the TranslationExample provided by Hugging Face.
+
+## Dependencies
+
+### Install Ubuntu 18.04
+
+You
+
+Message: Automation is real
+Response: Automation is real and it's here. While many people make claiming that robots are coming to take our jobs, in reality the automation will come in a more subtle way.
+
+Automation in its general form means replacing human labor with software, machines, or robots. This has been going on since the beginning of the industrial revolution and it's not going away. Instead, it's just getting a lot more sophisticated.
+
+If you think that automation is only going to impact
+
+Message: What is mmachine learning
+Response: What is mmachine learning and howDoes it differFrom traditional statistical approaches?
+
+Machine learning (ML) is a subfield of artificial intelligence (AI) that focuses on developing algorithms and statistical models that can learn and improve their performance based on data, without being explicitly programmed. ML algorithms can identify patterns, classify data, make predictions, and automate decision-making processes. These models are trained on large datasets and can learn to adapt to new information, making them particularly useful in handling complex and dynamic data.
+
+Message: Hey
+Response: Hey guys! It’s me, Madison.
+
+Hey, Madison! What’s up?
+
+Well, my little brother Josh started kindergarten today. Even though we do everything together except go to the bathroom, he’s really cute and I’m proud of him. I just wanted to share that.
+
+Aww, that’s really sweet. What are you up to these days?
+
+Not much, just the usual. You know, paddling
+
+Message: What is AI
+Response: What is AI? Artificial intelligence is a branch of computer science that aims to create intelligent machines that can work and learn like humans. It involves developing algorithms and models that can analyze data, learn from it, and make decisions or predictions based on that learning. AI is used in various fields such as finance, healthcare, education, transportation, and more, to automate tasks, improve efficiency, and make informed decisions.
+
+In the context of education, AI can be used to personalize learning, predict student
+
+Message: What is machine learning
+Response: What is machine learning? Machine Learning is a concept that simulate a form of artificial intelligence (AI) where computer systems are able to learn by themselves. Machine Learning systems use algorithms to parse data, learn from the data, identify patterns, and then make decisions based on the patterns.
+
+Key machine learning concepts you need to know to get started:
+
+1. Statistical Learning: This involves the design of algorithms that can learn from data and translate that learning to help with problem solving. Machine learning is
+
+Message: What else
+Response: What else? Well, when did yourself and Wes make the decision to form The Armed?
+
+David Henrique: Wes decided to charter the ship when we were in the middle of Young Aviators and he just wasn't satisfied with people's apathy towards our ideas and our intentional lack of forward momentum. The problem with being in a reggae punk band was that people expected us to emulate the big bands and we were trying to take it to places the big
+
+Message: My courses are missing
+Response: My courses are missing on the frontend. What should I do?
+
+If you've accidentally deleted, added, or moved courses from the Course Manager, you may have disrupted the front end's ability to display the correct courses. To resolve the issue and restore the courses to the front end, follow these steps:
+
+1. Log in to your BuddyBoss Dashboard. If you're not sure how to do that, read this guide.
+
+2. Navigate to
+
+Message: My courses are missing
+Response: My courses are missing on the frontend. What should I do?
+
+If you've accidentally deleted, added, or moved courses from the Course Manager, you may have disrupted the front end's ability to display the correct courses. To resolve the issue and restore the courses to the front end, follow these steps:
+
+1. Log in to your BuddyBoss Dashboard. If you're not sure how to do that, read this guide.
+
+2. Navigate to
+
+Message: I cannot see my courses
+Response: I cannot see my courses in my Google Play Store app
+- Make sure your device meets the system requirements of Quizlet Learn by checking the requirements listed on the Play Store. If your device has met the requirements, please update the Quizlet Learn app to the latest version.
+
+1. First, please make sure you've downloaded a course onto your mobile device.
+
+2. Open your Google Play Store app on your mobile device. You should see the Apps section on the left-hand
+
+Message: I can not see my courses
+Response: I can not see my courses in Moodle, only if I go to the Moodle App. Why is that?
+
+To access Moodle on your mobile device, you can use the Moodle Mobile App or the browser on your mobile device. However, it's important to note that your Moodle experience and access may vary depending on the device and browser you're using.
+
+If you can only see your courses on the Moodle App and not on your mobile browser,
+
+Message: I cnnot see my courses
+Response: I cnnot see my courses in the Django site. Django 2.1.7, PostgreSQL database python 3.7.5
+
+1. I have created Apps in Django and I can go to /admin and can see courses I have created.
+2. I have added those urls in the urls.py of the site project so that it can be accessible from the home page
+3. Creating a database schema after using `makemigrations` and
+
+Message: R231602U
+Response: R231602U_1607658864
+Bangor High School graduate Darian Hammon signed to play baseball for the University of Maine on Nov. 12, 2020. (Courtesy of Darian Hammon)
+Bangor High School graduate Darian Hammon signed to play baseball for the University of Maine on Nov. 12, 2020. (Courtesy of Darian Hammon)
+
+#
+
+Message: Life is hard
+Response: Life is hard for a reality TV couple these days. Just ask Kylie Jenner and Travis Scott. The youngest billionaire on the planet and the MLB All-Star rapper welcomed their second child together, a son, this past February. They named him Wolf Webster Scott, and as expected, the news sent the internet aflutter.
+
+But even as the new parents started gushing about their new addition to the family, people couldn't help but notice something odd about the
+
+Message: R231602U
+Response: R231602U_1607658864
+Bangor High School graduate Darian Hammon signed to play baseball for the University of Maine on Nov. 12, 2020. (Courtesy of Darian Hammon)
+Bangor High School graduate Darian Hammon signed to play baseball for the University of Maine on Nov. 12, 2020. (Courtesy of Darian Hammon)
+
+#
+
+Message: R231602U
+Response: Sorry, I didn’t get that.
+
+Message: R231602U
+Response: Sorry, I didn’t get that.
+
+Message: R231602U
+Response: Sorry, I didn’t get that.
+
+Message: How are you doing
+Response: Sorry, I didn’t get that.
+
+Message: Hey
+Response: Sorry, I didn’t get that.
+
+Message: Hey
+Response: Sorry, I didn’t get that.
+
+Message: How are you
+Response: Sorry, I didn’t get that.
+
+Message: Hey
+Response: Hey there, people of the web! I'm glad we're still connected here, even if it's through a virtual space. I hope this virtual Connection finds you well. I wanted to share something special that's been on my heart recently: the importance of creating a vibrant and satisfying work-life integration - not work-life balance.
+
+Balance, as we know it, implies an equal amount of time and attention given to each aspect of our lives. But, let
+
+Message: How are you doing
+Response: How are you doing today? I’m doing pretty good, although I have a migraine right now. It’s weird how your body kinds reacts to a situation. I’m stressed because we haven’t found our new home yet, $$$ losing us money staying in a hotel, but oddly I do feel like I’m ‘on vacation’. And yet, a headache seems very odd; it’s not usually my reaction to being at ease.
+
+It’s funny how
+
+Message: Hey
+Response: Hey there, people of the web! I'm glad we're still connected here, even if it's through a virtual space. I hope this virtual Connection finds you well. I wanted to share something special that's been on my heart recently: the importance of creating a vibrant and satisfying work-life integration - not work-life balance.
+
+Balance, as we know it, implies an equal amount of time and attention given to each aspect of our lives. But, let
+
+Message: HAI105
+Response: HAI10560
+
+# HAI Large Driveway Alert
+
+The HAI Large Driveway Alert is an advanced security device, with 4 sensors that can be placed up to 65 feet apart to cover long driveways or large properties. The system can be programmed to send an alert to the homeowner via text message, or email when a car crosses the sensor. Smartphone enabled, the system can also be integrated with HomeLink or aTouchpad to allow for
+
+Message: HAI105
+Response: HAI10560
+
+# HAI Large Driveway Alert
+
+The HAI Large Driveway Alert is an advanced security device, with 4 sensors that can be placed up to 65 feet apart to cover long driveways or large properties. The system can be programmed to send an alert to the homeowner via text message, or email when a car crosses the sensor. Smartphone enabled, the system can also be integrated with HomeLink or aTouchpad to allow for
+
+Message: Hey
+Response: Hey there, people of the web! I'm glad we're still connected here, even if it's through a virtual space. I hope this virtual Connection finds you well. I wanted to share something special that's been on my heart recently: the importance of creating a vibrant and satisfying work-life integration - not work-life balance.
+
+Balance, as we know it, implies an equal amount of time and attention given to each aspect of our lives. But, let
+
+Message: I have missing courses
+Response: I have missing courses on my transcript. Can I make them up and get credit?
+
+If you did not receive a passing grade (A, B, C) in a course that is required for your degree, you need to retake the course at Grand Canyon University. If you have previously retaken that course at another institution, we cannot accept GCU transfer credit for that course.
+
+If the missing course is an elective, and you have passed the course at another institution, you
+
+Message: I have missing courses
+Response: I have missing courses on my transcript. Can I make them up and get credit?
+
+If you did not receive a passing grade (A, B, C) in a course that is required for your degree, you need to retake the course at Grand Canyon University. If you have previously retaken that course at another institution, we cannot accept GCU transfer credit for that course.
+
+If the missing course is an elective, and you have passed the course at another institution, you
+
+Message: I have missing courses
+Response: I have missing courses on my transcript. Can I make them up and get credit?
+
+If you did not receive a passing grade (A, B, C) in a course that is required for your degree, you need to retake the course at Grand Canyon University. If you have previously retaken that course at another institution, we cannot accept GCU transfer credit for that course.
+
+If the missing course is an elective, and you have passed the course at another institution, you
+
+Message: How are you
+Response: How are you feeling about the new school year? Excited? Nervous? Both?
+
+Maybe it’s because I’m a teacher, but I get pretty joyful about new beginnings for my students. It’s going to be a fun, productive, and engaging year. I promise.
+
+Now… about how you’re feeling… it can be interesting to notice where those feelings live in your body. Where do you feel the excitement? The nervousness?  Is
+
+Message: I have missing courses
+Response: I have missing courses on my transcript. Can I make them up and get credit?
+
+If you did not receive a passing grade (A, B, C) in a course that is required for your degree, you need to retake the course at Grand Canyon University. If you have previously retaken that course at another institution, we cannot accept GCU transfer credit for that course.
+
+If the missing course is an elective, and you have passed the course at another institution, you
+
+Message: Okay
+Response: Okay, I’m not actually on spring break, because it apparently started last week and ends this week, and since I work in a college setting, I’ve still been at work all week. But my sister is on spring break, and while she’s been off gallivanting around Europe (ahem, I’m slightly jealous), she’s taken barely any pictures. This is really unusual behavior for her, as she’s normally the picture-taking queen (in
+
+Message: I have missing courses
+Response: I have missing courses on my transcript. Can I make them up and get credit?
+
+If you did not receive a passing grade (A, B, C) in a course that is required for your degree, you need to retake the course at Grand Canyon University. If you have previously retaken that course at another institution, we cannot accept GCU transfer credit for that course.
+
+If the missing course is an elective, and you have passed the course at another institution, you
+
+Message: I have missing courses courses
+Response: I have missing courses courses missing from my xsi alumni profile. You mentioned that you have observed this issue before and advised checking which courses are linked to the correct Student ID, creating new courses if necessary, and merging any duplicates. In this case, I've done all of that already, and I still have some missing courses appearing on my transcript as "N/A" when I access my xsi alumni profile (https://alumni.stanford.edu/online
+
+Message: I have missing courses
+Response: I have missing courses on my transcript. Can I make them up and get credit?
+
+If you did not receive a passing grade (A, B, C) in a course that is required for your degree, you need to retake the course at Grand Canyon University. If you have previously retaken that course at another institution, we cannot accept GCU transfer credit for that course.
+
+If the missing course is an elective, and you have passed the course at another institution, you
+
+Message: Okay
+Response: Okay, I’m not actually on spring break, because it apparently started last week and ends this week, and since I work in a college setting, I’ve still been at work all week. But my sister is on spring break, and while she’s been off gallivanting around Europe (ahem, I’m slightly jealous), she’s taken barely any pictures. This is really unusual behavior for her, as she’s normally the picture-taking queen (in
+
+Message: I have missing courses
+Response: I have missing courses on my transcript. Can I make them up and get credit?
+
+If you did not receive a passing grade (A, B, C) in a course that is required for your degree, you need to retake the course at Grand Canyon University. If you have previously retaken that course at another institution, we cannot accept GCU transfer credit for that course.
+
+If the missing course is an elective, and you have passed the course at another institution, you
+
+Message: I have missing courses courses
+Response: I have missing courses courses missing from my xsi alumni profile. You mentioned that you have observed this issue before and advised checking which courses are linked to the correct Student ID, creating new courses if necessary, and merging any duplicates. In this case, I've done all of that already, and I still have some missing courses appearing on my transcript as "N/A" when I access my xsi alumni profile (https://alumni.stanford.edu/online
+
+Message: Thanks
+Response: Thanks for stopping by! This little lab of mine is about software engineering and other aspects of information technology. Primarily, this is about the Java programming language, databases (especially MySQL), and web development.
+
+I've had a long-standing interest in computers and mathematics, along with many years of practical experience as a software developer.
+
+## Some Recent Projets and Technologies
+
+1. Started a very early version of the site you're looking at
+
+Message: I want to check for another one
+Response: I want to check for another one of these big stories later, but in the meantime, here’s a few small items that didn’t really seem worth their own threads…
+
+Gonzalo Morales, who was the first investigator to begin seriously questioning whether the LSU Jena Six story was largely a hoax, and who later was a primary whistleblower on Ethics and Academic Freedom, telling the Daily Reveille last night that he and his family were being threatened with “repr
+
+Message: Hie
+Response: Hie there,
+
+I am trying to line up my instances of `imgur` buttons in 3 columns. By applying jquery sauce I was able to lose all the padding. I always thought, losing padding on all sides of a button will make it align vertically side-by-side but apparently seems that "img-thumbnail" has some crazy percentage width, that keeps only 3 buttons aligned side by side. My first thought was to lose all the padding. I always thought,
+
+Message: How are you
+Response: How are you feeling today?
+
+I’m doing good – a little tired, the first day after a long trip. But overall, I feel good.
+
+You recently came back from a tour in Australia and Indonesia – what was that like?
+
+It was amazing, I had a great time there. It was actually more of a solo tour. I invited some friends to join me here and there, but mostly it was just me on my own. I’ve been doing a lot of
+
+Message: Hey
+Response:  Hey, how are you? I'm just relaxing after a long day of work. What are you up to?
+
+Message: How are you
+Response:  I'm doing well, how are you? I just got back from a walk with my dog.
+
+Message: Im making an app
+Response:  What kind of app are you making? Is it for a business or for personal use? 
+
+Message: Its for business
+Response:  What kind of business do you want to start? I'm thinking of starting a new business.
+
+Message: Not that one
+Response:  What do you mean not that one? Are you saying you don't like the one you have?
+
+Message: Hie
+Response:  HI, do you like HI? It is a shortened form of HI.
+
+Message: Hi
+Response:  Hi, how are you? I just got back from the grocery store. Do you like to shop?
+
+Message: I need help
+Response:  I'm sorry to hear that. What do you need help with, if you don't mind me asking?
+
+Message: Hey
+Response:  Hey, how are you? I'm just relaxing after a long day of work. What are you up to?
+

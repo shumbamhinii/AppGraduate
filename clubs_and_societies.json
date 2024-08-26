@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Chess Club",
+    "description": "For chess enthusiasts of all levels.",
+    "icon": "games",
+    "how_to_join": "Sign up at the Student Union or visit our website.",
+    "meeting_times": "Mondays and Wednesdays at 6 PM in Room 101",
+    "contact": "chess@example.com"
+  },
+  {
+    "name": "Drama Society",
+    "description": "Join us to explore the world of theater and drama.",
+    "icon": "theater-comedy",
+    "how_to_join": "Auditions are held at the beginning of each semester.",
+    "meeting_times": "Tuesdays at 4 PM in the Drama Hall",
+    "contact": "drama@example.com"
+  },
+  {
+    "name": "Debate Club",
+    "description": "Hone your debating skills and participate in competitions.",
+    "icon": "gavel",
+    "how_to_join": "Join our weekly meetings and participate in our debates.",
+    "meeting_times": "Fridays at 5 PM in the Debate Room",
+    "contact": "debate@example.com"
+  },
+  {
+    "name": "Coding Club",
+    "description": "A community for students interested in programming.",
+    "icon": "code",
+    "how_to_join": "Register online and attend our coding workshops.",
+    "meeting_times": "Saturdays at 10 AM in the Tech Lab",
+    "contact": "coding@example.com"
+  },
+  {
+    "name": "Environmental Society",
+    "description": "Promoting environmental awareness and sustainability.",
+    "icon": "eco",
+    "how_to_join": "Participate in our environmental campaigns and workshops.",
+    "meeting_times": "Thursdays at 3 PM in the Green Room",
+    "contact": "environment@example.com"
+  },
+  {
+    "name": "Leo Club",
+    "description": "A service organization dedicated to community service and leadership.",
+    "icon": "stars",
+    "how_to_join": "Join our club through the campus office or online.",
+    "meeting_times": "Wednesdays at 5 PM in Room 202",
+    "contact": "leo@example.com"
+  },
+  {
+    "name": "Music Club",
+    "description": "For students passionate about playing and appreciating music.",
+    "icon": "music-note",
+    "how_to_join": "Join us by attending our weekly jam sessions.",
+    "meeting_times": "Tuesdays at 6 PM in the Music Room",
+    "contact": "music@example.com"
+  },
+  {
+    "name": "Photography Club",
+    "description": "For students interested in photography and visual arts.",
+    "icon": "photo-camera",
+    "how_to_join": "Sign up at our events or online.",
+    "meeting_times": "Thursdays at 4 PM in the Photography Studio",
+    "contact": "photo@example.com"
+  },
+  {
+    "name": "Sports Club",
+    "description": "Join us to participate in various sports and fitness activities.",
+    "icon": "sports-soccer",
+    "how_to_join": "Register at the campus gym or online.",
+    "meeting_times": "Mondays and Wednesdays at 5 PM in the Sports Complex",
+    "contact": "sports@example.com"
+  },
+  {
+    "name": "Robotics Club",
+    "description": "For students interested in robotics and engineering.",
+    "icon": "build",
+    "how_to_join": "Join our club by attending our meetings and workshops.",
+    "meeting_times": "Fridays at 3 PM in the Robotics Lab",
+    "contact": "robotics@example.com"
+  }
+]

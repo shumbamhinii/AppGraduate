@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "forum_name": "Education Talk",
+    "description": "A forum to discuss educational trends and topics.",
+    "category": "Educational",
+    "contacts": "education@forum.com",
+    "how_to_join": "Join via the online portal.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 2,
+    "forum_name": "Religious Views",
+    "description": "Discuss different religious beliefs and practices.",
+    "category": "Religious",
+    "contacts": "religious@forum.com",
+    "how_to_join": "Sign up through the church app.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 3,
+    "forum_name": "Forex Trading",
+    "description": "All about Forex trading strategies and tips.",
+    "category": "Financial",
+    "contacts": "forex@forum.com",
+    "how_to_join": "Request access through our Telegram group.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 4,
+    "forum_name": "Student Finance",
+    "description": "Tips and advice on managing student finances.",
+    "category": "Financial",
+    "contacts": "finance@forum.com",
+    "how_to_join": "Join via email invitation.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 5,
+    "forum_name": "Book Club",
+    "description": "Discuss the latest and greatest books.",
+    "category": "Educational",
+    "contacts": "books@forum.com",
+    "how_to_join": "Register on our website.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 6,
+    "forum_name": "Spiritual Growth",
+    "description": "A place to share and grow spiritually.",
+    "category": "Religious",
+    "contacts": "spiritual@forum.com",
+    "how_to_join": "Join through the church group.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 7,
+    "forum_name": "Crypto Conversations",
+    "description": "Stay updated on the latest in cryptocurrency.",
+    "category": "Financial",
+    "contacts": "crypto@forum.com",
+    "how_to_join": "Register through the Crypto app.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 8,
+    "forum_name": "Scholarship Seekers",
+    "description": "Find and share scholarship opportunities.",
+    "category": "Educational",
+    "contacts": "scholarship@forum.com",
+    "how_to_join": "Join via our online application.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 9,
+    "forum_name": "Bible Study",
+    "description": "Weekly discussions on Bible verses.",
+    "category": "Religious",
+    "contacts": "biblestudy@forum.com",
+    "how_to_join": "Join by subscribing to our newsletter.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 10,
+    "forum_name": "Investment Insights",
+    "description": "Discuss different investment strategies.",
+    "category": "Financial",
+    "contacts": "investments@forum.com",
+    "how_to_join": "Access through the finance portal.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 11,
+    "forum_name": "Research Hub",
+    "description": "Collaborate on academic research projects.",
+    "category": "Educational",
+    "contacts": "research@forum.com",
+    "how_to_join": "Request access via our research network.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 12,
+    "forum_name": "Faith Forum",
+    "description": "A place to strengthen your faith.",
+    "category": "Religious",
+    "contacts": "faith@forum.com",
+    "how_to_join": "Join by sending an email.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 13,
+    "forum_name": "Stock Market Watch",
+    "description": "Discuss the latest in stock market trends.",
+    "category": "Financial",
+    "contacts": "stocks@forum.com",
+    "how_to_join": "Join through the stock app.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 14,
+    "forum_name": "Study Groups",
+    "description": "Form and join study groups for various subjects.",
+    "category": "Educational",
+    "contacts": "studygroups@forum.com",
+    "how_to_join": "Sign up on our study platform.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 15,
+    "forum_name": "Prayer Circle",
+    "description": "Join others in prayer and support.",
+    "category": "Religious",
+    "contacts": "prayercircle@forum.com",
+    "how_to_join": "Join through the prayer network.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 16,
+    "forum_name": "Economics Talk",
+    "description": "Discuss global economic trends and policies.",
+    "category": "Financial",
+    "contacts": "economics@forum.com",
+    "how_to_join": "Request an invite via email.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 17,
+    "forum_name": "Exam Prep",
+    "description": "Prepare for exams with tips and tricks.",
+    "category": "Educational",
+    "contacts": "examprep@forum.com",
+    "how_to_join": "Join our prep sessions online.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 18,
+    "forum_name": "Youth Ministry",
+    "description": "Engage with youth ministry activities.",
+    "category": "Religious",
+    "contacts": "youthministry@forum.com",
+    "how_to_join": "Join via our youth ministry app.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 19,
+    "forum_name": "Taxation Tips",
+    "description": "Get advice on handling taxes efficiently.",
+    "category": "Financial",
+    "contacts": "taxation@forum.com",
+    "how_to_join": "Register on the tax advice site.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 20,
+    "forum_name": "Lecture Notes Exchange",
+    "description": "Share and exchange lecture notes.",
+    "category": "Educational",
+    "contacts": "notesexchange@forum.com",
+    "how_to_join": "Join through our academic portal.",
+    "created_at": "2024-08-10T16:52:48.815Z"
+  },
+  {
+    "id": 21,
+    "forum_name": "Honors in AI & Machine Learning",
+    "description": "Discussion on advanced topics in AI and ML for honors students.",
+    "category": "Educational",
+    "contacts": "honors_ai_ml@forum.com",
+    "how_to_join": "Join through the honors program portal.",
+    "created_at": "2024-08-10T16:53:07.284Z"
+  },
+  {
+    "id": 22,
+    "forum_name": "MBA Forum",
+    "description": "Networking and discussion for MBA students.",
+    "category": "Educational",
+    "contacts": "mba@forum.com",
+    "how_to_join": "Request access through the MBA student platform.",
+    "created_at": "2024-08-10T16:53:07.284Z"
+  },
+  {
+    "id": 23,
+    "forum_name": "Honors in Law",
+    "description": "Forum for honors students in law to discuss case studies and legal theories.",
+    "category": "Educational",
+    "contacts": "honors_law@forum.com",
+    "how_to_join": "Join through the law faculty portal.",
+    "created_at": "2024-08-10T16:53:07.284Z"
+  },
+  {
+    "id": 24,
+    "forum_name": "Honors in Data Science",
+    "description": "Collaborate on data science projects and research.",
+    "category": "Educational",
+    "contacts": "honors_datascience@forum.com",
+    "how_to_join": "Request access via the data science network.",
+    "created_at": "2024-08-10T16:53:07.284Z"
+  },
+  {
+    "id": 25,
+    "forum_name": "Honors in Business Management",
+    "description": "Discuss business strategies and management principles.",
+    "category": "Educational",
+    "contacts": "honors_bm@forum.com",
+    "how_to_join": "Join through the business management platform.",
+    "created_at": "2024-08-10T16:53:07.284Z"
+  },
+  {
+    "id": 26,
+    "forum_name": "Honors in Economics",
+    "description": "Discuss advanced economic theories and applications.",
+    "category": "Educational",
+    "contacts": "honors_economics@forum.com",
+    "how_to_join": "Register via the economics honors platform.",
+    "created_at": "2024-08-10T16:53:07.284Z"
+  },
+  {
+    "id": 27,
+    "forum_name": "Honors in Information Technology",
+    "description": "Stay updated on the latest IT trends and research.",
+    "category": "Educational",
+    "contacts": "honors_it@forum.com",
+    "how_to_join": "Request access through the IT honors portal.",
+    "created_at": "2024-08-10T16:53:07.284Z"
+  },
+  {
+    "id": 28,
+    "forum_name": "MBA Leadership Forum",
+    "description": "Discuss leadership strategies and case studies.",
+    "category": "Educational",
+    "contacts": "mba_leadership@forum.com",
+    "how_to_join": "Join via the leadership portal.",
+    "created_at": "2024-08-10T16:53:07.284Z"
+  },
+  {
+    "id": 29,
+    "forum_name": "Honors in Cybersecurity",
+    "description": "Collaborate on cybersecurity challenges and solutions.",
+    "category": "Educational",
+    "contacts": "honors_cybersecurity@forum.com",
+    "how_to_join": "Join through the cybersecurity network.",
+    "created_at": "2024-08-10T16:53:07.284Z"
+  },
+  {
+    "id": 30,
+    "forum_name": "Honors in Environmental Science",
+    "description": "Discuss environmental issues and sustainability research.",
+    "category": "Educational",
+    "contacts": "honors_environmentalscience@forum.com",
+    "how_to_join": "Request access through the environmental science honors portal.",
+    "created_at": "2024-08-10T16:53:07.284Z"
+  }
+]

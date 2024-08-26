@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "'Personal Counseling",
+    "description": "One-on-one counseling sessions",
+    "details": "Details on how to access personal counseling",
+    "access_details": "Available through live chat and face-to-face. For live chat, visit our website. Face-to-face sessions are scheduled through the counseling office",
+    "contact_info": "Contact: counseling@university.edu, Phone: 123-456-7890"
+  },
+  {
+    "id": 2,
+    "title": "Career Counseling",
+    "description": "Guidance for your career path.",
+    "details": "Details on how to access career counseling.",
+    "access_details": "Available through live chat and face-to-face. For live chat, visit our website. Face-to-face sessions are scheduled through the career center.",
+    "contact_info": "Contact: career@university.edu, Phone: 123-456-7891'"
+  },
+  {
+    "id": 3,
+    "title": "'Group Counseling",
+    "description": "Support groups for various topics",
+    "details": "Details on how to access career counseling.",
+    "access_details": "Available through live chat and face-to-face. For live chat, visit our website. Face-to-face sessions are scheduled through the career center.",
+    "contact_info": "Contact: groups@university.edu, Phone: 123-456-7892"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "name": "graduateapp-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@huggingface/inference": "^2.8.0",
+    "axios": "^1.7.5",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0",
+    "connect-pg-simple": "^9.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "expo-contacts": "^13.0.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "node-cron": "^3.0.3",
+    "openai": "^4.55.7",
+    "pg": "^8.12.0",
+    "pg-promise": "^11.9.1",
+    "react-native-contacts": "^7.0.8",
+    "react-native-gifted-chat": "^2.4.1",
+    "react-native-snap-carousel": "^3.9.1",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "ws": "^8.18.0"
+  }
+}

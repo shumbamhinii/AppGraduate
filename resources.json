@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Managing Stress",
+    "description": "Tips and strategies to manage stress.",
+    "type": "article",
+    "download_link": "http://example.com/stress-article"
+  },
+  {
+    "id": 2,
+    "title": "Mental Health Awareness",
+    "description": "Understanding mental health.",
+    "type": "video",
+    "download_link": "http://example.com/mental-health-video"
+  },
+  {
+    "id": 3,
+    "title": "Time Management Techniques",
+    "description": "Effective time management strategies.",
+    "type": "article",
+    "download_link": "http://example.com/time-management"
+  },
+  {
+    "id": 4,
+    "title": "Depression Awareness",
+    "description": "Information on recognizing and managing depression.",
+    "type": "video",
+    "download_link": "http://example.com/depression-awareness"
+  },
+  {
+    "id": 5,
+    "title": "Anxiety Management",
+    "description": "Techniques to manage anxiety effectively.",
+    "type": "article",
+    "download_link": "http://example.com/anxiety-management"
+  },
+  {
+    "id": 6,
+    "title": "Building Resilience",
+    "description": "How to build resilience in difficult times.",
+    "type": "video",
+    "download_link": "http://example.com/building-resilience"
+  },
+  {
+    "id": 7,
+    "title": "Healthy Sleep Habits",
+    "description": "Tips for better sleep and improving sleep hygiene.",
+    "type": "article",
+    "download_link": "http://example.com/healthy-sleep"
+  }
+]

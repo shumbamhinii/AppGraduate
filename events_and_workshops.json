@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Zimbabwe International Trade Fair",
+    "description": "Annual trade fair showcasing various industries.",
+    "icon": "business-center",
+    "date": "2024-09-19T22:00:00.000Z",
+    "location": "Bulawayo, Zimbabwe",
+    "contact": "info@zitf.co.zw"
+  },
+  {
+    "name": "Harare International Festival of the Arts",
+    "description": "An annual arts festival featuring performances, music, and visual arts.",
+    "icon": "theaters",
+    "date": "2024-10-09T22:00:00.000Z",
+    "location": "Harare, Zimbabwe",
+    "contact": "info@hifa.co.zw"
+  },
+  {
+    "name": "Technology and Innovation Summit",
+    "description": "Conference on technological advancements and innovations.",
+    "icon": "devices",
+    "date": "2024-11-04T22:00:00.000Z",
+    "location": "Harare, Zimbabwe",
+    "contact": "contact@techsummit.co.zw"
+  },
+  {
+    "name": "Zimbabwe International Film Festival",
+    "description": "Showcasing films from around the world with a focus on African cinema.",
+    "icon": "movie",
+    "date": "2024-09-29T22:00:00.000Z",
+    "location": "Harare, Zimbabwe",
+    "contact": "info@ziff.co.zw"
+  },
+  {
+    "name": "Harare Art Exhibition",
+    "description": "An exhibit featuring contemporary and traditional Zimbabwean art.",
+    "icon": "brush",
+    "date": "2024-10-14T22:00:00.000Z",
+    "location": "Harare, Zimbabwe",
+    "contact": "contact@harareart.org"
+  },
+  {
+    "name": "Bulawayo Comedy Festival",
+    "description": "A festival featuring local and international comedians.",
+    "icon": "mood",
+    "date": "2024-11-11T22:00:00.000Z",
+    "location": "Bulawayo, Zimbabwe",
+    "contact": "info@bulawayocomedy.co.zw"
+  },
+  {
+    "name": "Zimbabwe Science Fair",
+    "description": "Exhibition of scientific projects and innovations by students.",
+    "icon": "science",
+    "date": "2024-10-24T22:00:00.000Z",
+    "location": "Harare, Zimbabwe",
+    "contact": "contact@zsf.co.zw"
+  },
+  {
+    "name": "National Music Concert",
+    "description": "A concert featuring prominent Zimbabwean and international musicians.",
+    "icon": "music-note",
+    "date": "2024-11-30T22:00:00.000Z",
+    "location": "Harare, Zimbabwe",
+    "contact": "info@zmc.co.zw"
+  },
+  {
+    "name": "Art in the Park",
+    "description": "Outdoor art exhibit featuring sculptures and installations.",
+    "icon": "palette",
+    "date": "2024-11-19T22:00:00.000Z",
+    "location": "Harare, Zimbabwe",
+    "contact": "contact@artinthepark.co.zw"
+  },
+  {
+    "name": "Harare Fashion Week",
+    "description": "A week-long event showcasing the latest fashion trends and designs.",
+    "icon": "fashion",
+    "date": "2024-11-29T22:00:00.000Z",
+    "location": "Harare, Zimbabwe",
+    "contact": "info@hararefashionweek.co.zw"
+  }
+]

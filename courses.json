@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "code": "HAI105",
+    "name": "Data Structures and Algorithms",
+    "semester": 2,
+    "compulsory": true,
+    "department": "CT",
+    "description": "A comprehensive course on data structures and algorithms.",
+    "lecturers": "[{\"name\": \"Dr. Alice Johnson\", \"contact\": \"alice.johnson@example.com\"}]",
+    "outlineUrl": "https://example.com/outline.pdf",
+    "readingMaterialsUrl": "https://example.com/reading.pdf",
+    "imageUrl": "https://example.com/course-image.jpg"
+  },
+  {
+    "id": 2,
+    "code": "HAI106",
+    "name": "Web computing and Mobile design",
+    "semester": 2,
+    "compulsory": true,
+    "department": "CT",
+    "description": "A comprehensive course on web designing.",
+    "lecturers": "[{\"name\": \"Dr. Thomas\", \"contact\": \"alice.johnson@example.com\"}]",
+    "outlineUrl": "https://example.com/outline.pdf",
+    "readingMaterialsUrl": "https://example.com/reading.pdf",
+    "imageUrl": "https://example.com/course-image.jpg"
+  },
+  {
+    "id": 4,
+    "code": "HAI109",
+    "name": "Object Oriented Design",
+    "semester": 2,
+    "compulsory": true,
+    "department": "CT",
+    "description": "A comprehensive course OOP.",
+    "lecturers": "[{\"name\": \"Dr. Gean\", \"contact\": \"alice.johnson@example.com\"}]",
+    "outlineUrl": "https://example.com/outline.pdf",
+    "readingMaterialsUrl": "https://example.com/reading.pdf",
+    "imageUrl": "https://example.com/course-image.jpg"
+  },
+  {
+    "id": 5,
+    "code": "HAI119",
+    "name": "Cloud Computing",
+    "semester": 2,
+    "compulsory": true,
+    "department": "CT",
+    "description": "A comprehensive course Cloud Computing.",
+    "lecturers": "[{\"name\": \"Dr. Piper\", \"contact\": \"alice.johnson@example.com\"}]",
+    "outlineUrl": "https://example.com/outline.pdf",
+    "readingMaterialsUrl": "https://example.com/reading.pdf",
+    "imageUrl": "https://example.com/course-image.jpg"
+  },
+  {
+    "id": 3,
+    "code": "HAI108",
+    "name": "Electronics",
+    "semester": 2,
+    "compulsory": true,
+    "department": "CT",
+    "description": "A comprehensive course on electronics.",
+    "lecturers": "[{\"name\": \"Dr. Frare\", \"contact\": \"alice.johnson@example.com\"}]",
+    "outlineUrl": "https://example.com/outline.pdf",
+    "readingMaterialsUrl": "https://example.com/reading.pdf",
+    "imageUrl": "https://example.com/course-image.jpg"
+  }
+]

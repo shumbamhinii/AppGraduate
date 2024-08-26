@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Yoga",
+    "description": "Relax and improve flexibility with our yoga sessions.",
+    "icon": "self-improvement",
+    "how_to_join": "Sign up online or show up to the first session.",
+    "meeting_times": "Saturdays at 8 AM in the wellness center",
+    "contact": "yoga@example.com"
+  },
+  {
+    "name": "Gymnastics",
+    "description": "Develop your flexibility, strength, and gymnastics skills.",
+    "icon": "sports-gymnastics",
+    "how_to_join": "Sign up at the gym or contact the coach.",
+    "meeting_times": "Mondays, Wednesdays, and Fridays at 5 PM in the gym",
+    "contact": "gymnastics@example.com"
+  },
+  {
+    "name": "Table Tennis",
+    "description": "Play table tennis casually or join our team.",
+    "icon": "sports-tennis",
+    "how_to_join": "Register at the student union or email us.",
+    "meeting_times": "Mondays and Wednesdays at 6 PM in Room 102",
+    "contact": "tabletennis@example.com"
+  },
+  {
+    "name": "Running Club",
+    "description": "For runners of all levels. Join us for weekly runs!",
+    "icon": "directions-run",
+    "how_to_join": "Sign up at the sports office or join our Facebook group.",
+    "meeting_times": "Sundays at 7 AM at the track",
+    "contact": "running@example.com"
+  },
+  {
+    "name": "Volleyball",
+    "description": "Join our volleyball team for fun and competitive play.",
+    "icon": "sports-volleyball",
+    "how_to_join": "Register at the sports center or email the team coach.",
+    "meeting_times": "Tuesdays and Thursdays at 6 PM in the gym",
+    "contact": "volleyball@example.com"
+  },
+  {
+    "name": "Tennis",
+    "description": "Improve your tennis skills or learn from scratch.",
+    "icon": "sports-tennis",
+    "how_to_join": "Register at the sports office or email the coordinator.",
+    "meeting_times": "Wednesdays and Saturdays at 3 PM on the tennis courts",
+    "contact": "tennis@example.com"
+  },
+  {
+    "name": "Basketball",
+    "description": "Join our competitive and friendly basketball team!",
+    "icon": "sports-basketball",
+    "how_to_join": "Sign up during club fair or contact the coach.",
+    "meeting_times": "Tuesdays and Thursdays at 5 PM in the gym",
+    "contact": "basketball@example.com"
+  },
+  {
+    "name": "Soccer",
+    "description": "Open to all skill levels. Come and play soccer with us!",
+    "icon": "sports-soccer",
+    "how_to_join": "Register online or speak to the team captain.",
+    "meeting_times": "Mondays and Fridays at 4 PM on the main field",
+    "contact": "soccer@example.com"
+  },
+  {
+    "name": "Swimming",
+    "description": "Join the swim team or simply enjoy recreational swimming.",
+    "icon": "pool",
+    "how_to_join": "Sign up at the swimming pool or contact the coach.",
+    "meeting_times": "Daily from 6 AM to 8 AM at the swimming pool",
+    "contact": "swimming@example.com"
+  },
+  {
+    "name": "Badminton",
+    "description": "Join our badminton club for casual and competitive play.",
+    "icon": "badminton",
+    "how_to_join": "Register at the sports office or join us in the gym.",
+    "meeting_times": "Tuesdays and Thursdays at 7 PM in the gym",
+    "contact": "badminton@example.com"
+  }
+]
