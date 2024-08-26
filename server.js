@@ -18,7 +18,7 @@ const WebSocket = require('ws');
 const pool = new Pool({
   connectionString: 'postgres://localhost:NCRVidDgzsWqpQZA7Z49RR3zFGAWcJtq@dpg-cr69udbqf0us73a26bb0-a.oregon-postgres.render.com:5432/uo_z', // Use the environment variable for connection
   ssl: {
-    rejectUnauthorized: false // Set to true if your server has a valid SSL certificate
+    rejectUnauthorized: true // Set to true if your server has a valid SSL certificate
   }
 });
 
