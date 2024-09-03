@@ -783,24 +783,50 @@ cron.schedule('*/15 * * * *', updateExpiredBookings);
 
 app.get('/results', async (req, res) => {
   try {
-    const registrationNumber = req.session.user.registration_number; // Ensure this value is available and valid
-    if (!registrationNumber) {
-      return res.status(401).json({ error: 'User not authenticated' });
+    // Retrieve the registration number from the session
+    const registration_number = req.session.user ? req.session.user.id : null;
+
+    if (!registration_number) {
+      console.error('Registration number is missing from session');
+      return res.status(400).json({ error: 'Registration number is missing from session' });
     }
-    
+
     const query = `
-      SELECT id, registration_number, course_code, result, created_at
-      FROM academics.student_results
-      WHERE registration_number = $1;
+      SELECT
+        sr.id,
+        sr.registration_number,
+        sr.course_code,
+        c.name AS course_name,
+        c.semester,
+        sr.result,
+        sr.created_at
+      FROM
+        academics.student_results sr
+      JOIN
+        academics.courses c ON sr.course_code = c.code
+      WHERE
+        sr.registration_number = $1
+      ORDER BY
+        sr.created_at DESC
     `;
-    
-    const { rows } = await pool.query(query, [registrationNumber]);
-    res.json(rows);
+
+    console.log('Executing query:', query);
+
+    // Fetch results from the database using the registration number from the session
+    const results = await db.any(query, [registration_number]);
+
+    if (results.length === 0) {
+      console.log('No results found for registration_number:', registration_number);
+      return res.status(404).json({ error: 'No results found for the current session' });
+    }
+
+    res.json(results);
   } catch (error) {
-    console.error('Error fetching results:', error);
-    res.status(500).json({ error: 'Internal server error' });
+    console.error('Error fetching results:', error);  // Log the complete error object
+    res.status(500).json({ error: 'Failed to fetch results', details: error.message });
   }
 });
+
 
 
 app.get('/assessments', async (req, res) => {
