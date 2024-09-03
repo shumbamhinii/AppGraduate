@@ -783,7 +783,7 @@ cron.schedule('*/15 * * * *', updateExpiredBookings);
 
 app.get('/results', async (req, res) => {
   try {
-
+    // Retrieve the registration number from the session
     const registration_number = req.session.user ? req.session.user.id : null;
 
     if (!registration_number) {
@@ -791,15 +791,14 @@ app.get('/results', async (req, res) => {
       return res.status(400).json({ error: 'Registration number is missing from session' });
     }
 
-
-    const results = await db.any(`
+    const query = `
       SELECT
         sr.id,
         sr.registration_number,
         sr.course_code,
-        sr.result,
         c.name AS course_name,
         c.semester,
+        sr.result,
         sr.created_at
       FROM
         academics.student_results sr
@@ -809,14 +808,25 @@ app.get('/results', async (req, res) => {
         sr.registration_number = $1
       ORDER BY
         sr.created_at DESC
-    `, [registration_number]);
+    `;
+
+    console.log('Executing query:', query);
+
+    // Fetch results from the database using the registration number from the session
+    const results = await db.any(query, [registration_number]);
+
+    if (results.length === 0) {
+      console.log('No results found for registration_number:', registration_number);
+      return res.status(404).json({ error: 'No results found for the current session' });
+    }
 
     res.json(results);
   } catch (error) {
-    console.error('Error fetching results:', error);
-    res.status(500).json({ error: 'Failed to fetch results' });
+    console.error('Error fetching results:', error.message);
+    res.status(500).json({ error: 'Failed to fetch results', details: error.message });
   }
 });
+
 
 app.get('/assessments', async (req, res) => {
   try {
