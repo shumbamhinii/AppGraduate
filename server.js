@@ -16,11 +16,10 @@ const WebSocket = require('ws');
 
 
 const pool = new Pool({
-  connectionString: 'postgres://localhost:NCRVidDgzsWqpQZA7Z49RR3zFGAWcJtq@dpg-cr69udbqf0us73a26bb0-a.oregon-postgres.render.com:5432/uo_z', // Use the environment variable for connection
-  ssl: {
-    rejectUnauthorized: true // Set to true if your server has a valid SSL certificate
-  }
+  connectionString: 'postgresql://postgres.njxnfubjncszurmhtfoc:Hunzamabhisvo%2319@aws-0-eu-central-1.pooler.supabase.com:6543/postgres', // Use the environment variable for connection
+
 });
+
 
 const app = express();
 const server = http.createServer(app);
@@ -28,10 +27,13 @@ const wss = new WebSocket.Server({ server });
 
 app.use(express.json()); // For parsing application/json
 app.use(cors({
-  origin: '*', // Adjust this to be more restrictive if needed
+  origin: '*', // Replace with your client's origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
-  allowedHeaders: ['Content-Type', 'Authorization']
-})); // Enable CORS
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  credentials: true // This allows cookies to be sent with requests
+}));
+
+ // Enable CORS
 app.use(session({
   store: new pgSession({
     pool: pool,
@@ -56,83 +58,6 @@ function isAuthenticated(req, res, next) {
 }
 const clients = new Map(); // Map to track clients by user phone number
 
-wss.on('connection', (ws, request) => {
-  console.log('Client connected');
-  let sessionId = null;
-
-  // Extract session ID from cookies
-  const cookies = request.headers.cookie || '';
-  const sessionCookie = cookies.split(';').find(cookie => cookie.trim().startsWith('connect.sid='));
-  if (sessionCookie) {
-    sessionId = decodeURIComponent(sessionCookie.split('=')[1]);
-    console.log('Session ID extracted:', sessionId);
-  } else {
-    console.error('No session ID found in cookies');
-    ws.close(4000, 'Authentication error');
-    return;
-  }
-
-  if (sessionId) {
-    // Query the database to get session data based on the session ID
-    pool.query('SELECT sess FROM academics.session WHERE sid = $1', [sessionId])
-      .then(result => {
-        if (result.rows.length > 0) {
-          const sessionData = JSON.parse(result.rows[0].sess); // Parse session data
-          ws.session = sessionData; // Attach session data to WebSocket
-          console.log('Session data attached to WebSocket:', ws.session);
-
-          // Track this client by their phone number
-          const userPhoneNumber = ws.session.user.phone_number;
-          clients.set(userPhoneNumber, ws);
-
-          ws.on('message', async (message) => {
-            console.log('Received:', message);
-            try {
-              const { receiver, text } = JSON.parse(message);
-
-              // Save message to the database
-              await pool.query(
-                'INSERT INTO academics.messages (sender_phone_number, receiver_phone_number, message) VALUES ($1, $2, $3)',
-                [userPhoneNumber, receiver, text]
-              );
-
-              // Send message only to the receiver if they're connected
-              const receiverClient = clients.get(receiver);
-              if (receiverClient && receiverClient.readyState === WebSocket.OPEN) {
-                receiverClient.send(JSON.stringify({ sender: userPhoneNumber, receiver, text }));
-              }
-            } catch (error) {
-              console.error('Error handling message:', error);
-            }
-          });
-
-        } else {
-          console.error('Session not found for ID:', sessionId);
-          ws.close(4000, 'Authentication error');
-        }
-      })
-      .catch(err => {
-        console.error('Session query error:', err);
-        ws.close(4000, 'Authentication error');
-      });
-  } else {
-    ws.close(4000, 'Authentication error');
-  }
-
-  ws.on('close', () => {
-    console.log('Client disconnected');
-    // Remove client from the map when they disconnect
-    if (ws.session && ws.session.user && ws.session.user.phone_number) {
-      clients.delete(ws.session.user.phone_number);
-    }
-  });
-
-  ws.on('error', (error) => {
-    console.error('WebSocket error:', error);
-  });
-});
-
-
 
 // Login route
 app.post('/login', async (req, res) => {
@@ -153,8 +78,8 @@ app.post('/login', async (req, res) => {
     const passwordMatch = password === user.password; // Adjust if passwords are hashed
 
     if (passwordMatch) {
-      req.session.user = { 
-        id: user.registration_number, 
+      req.session.user = {
+        id: user.registration_number,
         name: user.name,
         phone_number: user.phone_number // Include phone number in session
       };
@@ -183,7 +108,7 @@ app.get('/api/getUserPhoneNumber', isAuthenticated, (req, res) => {
   } else {
     res.status(404).json({ message: 'Phone number not found' });
   }
-})
+});
 app.post('/chat', async (req, res) => {
   const { message } = req.body;
   const session = req.session;
@@ -220,7 +145,7 @@ app.get('/courses', async (req, res) => {
   try {
     // Query the database for courses
     const result = await pool.query('SELECT * FROM academics.courses');
-    
+
     // Send the results as JSON
     res.json(result.rows);
   } catch (err) {
@@ -377,7 +302,7 @@ app.get('/registered-courses', async (req, res) => {
     try {
       // Query the database for courses
       const result = await pool.query('SELECT * FROM academics.research_programs');
-      
+
       // Send the results as JSON
       res.json(result.rows);
     } catch (err) {
@@ -391,7 +316,7 @@ app.get('/quotations', async (req, res) => {
   try {
     // Query the database for courses
     const result = await pool.query('SELECT * FROM academics.program_quotations');
-    
+
     // Send the results as JSON
     res.json(result.rows);
   } catch (err) {
@@ -439,7 +364,7 @@ app.get('/scholarships',async (req, res) => {
   try {
     // Query the database for courses
     const result = await pool.query('SELECT * FROM academics.scholarships_and_grants');
-    
+
     // Send the results as JSON
     res.json(result.rows);
   } catch (err) {
@@ -453,7 +378,7 @@ app.get('/policies', async (req, res) => {
   try {
     // Query the database for courses
     const result = await pool.query('SELECT * FROM academics.policy_details');
-    
+
     // Send the results as JSON
     res.json(result.rows);
   } catch (err) {
@@ -489,7 +414,7 @@ app.get('/counseling-services', async (req, res) => {
   try {
     // Query the database for courses
     const result = await pool.query('SELECT * FROM academics.counseling_services');
-    
+
     // Send the results as JSON
     res.json(result.rows);
   } catch (err) {
@@ -501,7 +426,7 @@ app.get('/counselors', async(req, res) => {
   try {
     // Query the database for courses
     const result = await pool.query('SELECT * FROM academics.counselors');
-    
+
     // Send the results as JSON
     res.json(result.rows);
   } catch (err) {
@@ -514,7 +439,7 @@ app.get('/sports-and-recreation', async (req, res) => {
   try {
     // Query the database for courses
     const result = await pool.query('SELECT * FROM academics.sports_and_recreation');
-    
+
     // Send the results as JSON
     res.json(result.rows);
   } catch (err) {
@@ -526,7 +451,7 @@ app.get('/events-and-workshops', async(req, res) => {
   try {
     // Query the database for courses
     const result = await pool.query('SELECT * FROM academics.events_and_workshops');
-    
+
     // Send the results as JSON
     res.json(result.rows);
   } catch (err) {
@@ -538,7 +463,7 @@ app.get('/clubs-and-societies', async(req, res) => {
   try {
     // Query the database for courses
     const result = await pool.query('SELECT * FROM academics.clubs_and_societies');
-    
+
     // Send the results as JSON
     res.json(result.rows);
   } catch (err) {
@@ -550,7 +475,7 @@ app.get('/university-resources', async (req, res) => {
   try {
     // Query the database for courses
     const result = await pool.query('SELECT * FROM academics.university_resources');
-    
+
     // Send the results as JSON
     res.json(result.rows);
   } catch (err) {
@@ -603,7 +528,7 @@ app.get('/discussion-forums', async(req, res) => {
   try {
     // Query the database for courses
     const result = await pool.query('SELECT * FROM academics.discussion_forums');
-    
+
     // Send the results as JSON
     res.json(result.rows);
   } catch (err) {
@@ -639,7 +564,7 @@ app.get('/alumni', async(req, res) => {
   try {
     // Query the database for courses
     const result = await pool.query('SELECT * FROM academics.alumni');
-    
+
     // Send the results as JSON
     res.json(result.rows);
   } catch (err) {
@@ -783,7 +708,7 @@ cron.schedule('*/15 * * * *', updateExpiredBookings);
 
 app.get('/results', async (req, res) => {
   try {
-    // Retrieve the registration number from the session
+
     const registration_number = req.session.user ? req.session.user.id : null;
 
     if (!registration_number) {
@@ -791,14 +716,15 @@ app.get('/results', async (req, res) => {
       return res.status(400).json({ error: 'Registration number is missing from session' });
     }
 
-    const query = `
+
+    const results = await db.any(`
       SELECT
         sr.id,
         sr.registration_number,
         sr.course_code,
+        sr.result,
         c.name AS course_name,
         c.semester,
-        sr.result,
         sr.created_at
       FROM
         academics.student_results sr
@@ -808,29 +734,18 @@ app.get('/results', async (req, res) => {
         sr.registration_number = $1
       ORDER BY
         sr.created_at DESC
-    `;
-
-    console.log('Executing query:', query);
-
-    // Fetch results from the database using the registration number from the session
-    const results = await db.any(query, [registration_number]);
-
-    if (results.length === 0) {
-      console.log('No results found for registration_number:', registration_number);
-      return res.status(404).json({ error: 'No results found for the current session' });
-    }
+    `, [registration_number]);
 
     res.json(results);
   } catch (error) {
-    console.error('Error fetching results:', error);  // Log the complete error object
-    res.status(500).json({ error: 'Failed to fetch results', details: error.message });
+    console.error('Error fetching results:', error);
+    res.status(500).json({ error: 'Failed to fetch results' });
   }
 });
 
-
-
 app.get('/assessments', async (req, res) => {
   try {
+
     const registration_number = req.session.user ? req.session.user.id : null;
 
     if (!registration_number) {
@@ -838,32 +753,36 @@ app.get('/assessments', async (req, res) => {
       return res.status(400).json({ error: 'Registration number is missing from session' });
     }
 
-    const query = `
-      SELECT sa.id, sa.student_id, s.name AS student_name, c.code AS course_code, c.name AS course_name,
-             sa.assessment_1, sa.assessment_2, sa.assessment_3, sa.assessment_4, sa.assessment_5, sa.total
-      FROM academics.student_assessments sa
-      JOIN academics.students s ON sa.student_id = s.registration_number
-      JOIN academics.courses c ON sa.course_code = c.code
-      WHERE sa.student_id = $1
-      ORDER BY sa.created_at DESC
-    `;
-
-    console.log('Executing query:', query);
-
-    const { rows: assessments } = await pool.query(query, [registration_number]);
+    const assessments = await db.any(
+      `SELECT sa.id, sa.student_id, s.name AS student_name, c.code AS course_code, c.name AS course_name,
+              sa.assessment_1, sa.assessment_2, sa.assessment_3, sa.assessment_4, sa.assessment_5, sa.total
+       FROM academics.student_assessments sa
+       JOIN academics.students s ON sa.student_id = s.registration_number
+       JOIN academics.courses c ON sa.course_code = c.code
+       WHERE sa.student_id = $1
+       ORDER BY sa.created_at DESC`,
+      [registration_number]
+    );
 
     if (assessments.length === 0) {
-      console.log('No assessments found for registration_number:', registration_number);
       return res.status(404).json({ error: 'No assessments found for the current session' });
     }
 
     res.json(assessments);
   } catch (error) {
-    console.error('Error fetching assessments:', error.message);
-    res.status(500).json({ error: 'Failed to fetch assessments', details: error.message });
+    console.error('Error fetching assessments:', error);
+    res.status(500).send('Failed to fetch assessments');
   }
 });
-
+app.get('/special-days', async (req, res) => {
+  try {
+    const result = await pool.query('SELECT * FROM academics.special_days');
+    res.json(result.rows); // Ensure the result is in JSON format
+  } catch (err) {
+    console.error('Error fetching special days:', err);
+    res.status(500).send('Server error');
+  }
+});
 app.get('/events', async (req, res) => {
   try {
     const result = await pool.query('SELECT * FROM academics.special_days');
@@ -967,11 +886,54 @@ app.delete('/delete-personal-date', async (req, res) => {
     res.status(500).send('Failed to delete personal date');
   }
 });
+// Fetch messages for a user
+app.get('/api/messages/:userPhoneNumber/:receiverPhoneNumber', async (req, res) => {
+  const { userPhoneNumber, receiverPhoneNumber } = req.params;
 
+  try {
+    const result = await pool.query(
+      `SELECT sender_phone_number, receiver_phone_number, message, timestamp 
+       FROM academics.messages 
+       WHERE (replace(sender_phone_number, ' ', '') = $1 AND replace(receiver_phone_number, ' ', '') = $2) 
+          OR (replace(sender_phone_number, ' ', '') = $2 AND replace(receiver_phone_number, ' ', '') = $1) 
+       ORDER BY timestamp ASC`,
+      [userPhoneNumber.replace(/\s+/g, ''), receiverPhoneNumber.replace(/\s+/g, '')]
+    );
+    res.json(result.rows);
+  } catch (error) {
+    console.error('Error fetching messages:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+
+// Adjusted route to fetch chats based on user's phone number from the session
+app.get('/api/chats', isAuthenticated, async (req, res) => {
+  try {
+    const phoneNumber = req.session.user?.phone_number; // Get phone number from session
+
+    if (!phoneNumber) {
+      return res.status(401).json({ message: 'Unauthorized' });
+    }
+
+    // Query to get only the chats for the logged-in user's phone number
+    const result = await pool.query(
+      `SELECT * FROM academics.chats 
+       WHERE contact_phone_number = $1 OR user_phone_number = $1`, 
+      [phoneNumber]
+    );
+
+    res.json(result.rows); // Send the filtered chats
+  } catch (error) {
+    console.error('Error fetching chats:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
 
 
 
 // Start the server
-server.listen(3000, () => {
-  console.log('Server is running on port 3000');
+const PORT = process.env.PORT || 5000;
+server.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
