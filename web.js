@@ -1,121 +1,131 @@
-require('dotenv').config();
-const express = require('express');
-const fs = require('fs');
-const path = require('path');
-const cors = require('cors');
-const { Pool } = require('pg');
-const axios = require('axios');
-const cron = require('node-cron');
-const session = require('express-session');
-const db = require('./db');
 const http = require('http');
-const socketIo = require('socket.io');
-const getBotResponse = require('./chatbotService');
-const pgSession = require('connect-pg-simple')(session);
 const WebSocket = require('ws');
+const express = require('express');
+const session = require('express-session');
+const pgSession = require('connect-pg-simple')(session);
+const { Pool } = require('pg');
+require('dotenv').config();
 
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
+  connectionString: 'postgres://postgres:123qwe@localhost:5432/UoZ',
 });
 
 const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
-app.use(express.json()); // For parsing application/json
-app.use(cors()); // Enable CORS
-
+app.use(express.json());
 app.use(session({
   store: new pgSession({
     pool: pool,
     tableName: 'session',
-    schemaName: 'academics'
+    schemaName: 'academics',
   }),
   secret: process.env.SESSION_SECRET || 'your_secret_key',
   resave: false,
   saveUninitialized: false,
   cookie: {
     secure: false, // Set to true if using HTTPS
-    maxAge: null
-  }
+    maxAge: null,
+  },
 }));
 
-// Middleware to check session
-function isAuthenticated(req, res, next) {
-  if (req.session.user) {
-    next();
-  } else {
-    res.status(401).json({ message: 'Unauthorized' });
-  }
-}
+// Login route to establish a session
+app.post('/login', (req, res) => {
+  // Here you would typically authenticate the user
+  req.session.user = { id: 'your_user_id' }; // Store user data in the session
+  res.send('Logged in');
+});
 
-const clients = new Map(); // Map to track clients by user phone number
+// Function to normalize phone numbers by removing spaces and non-numeric characters except "+"
+const normalizePhoneNumber = (phoneNumber) => {
+  return phoneNumber.replace(/[^\d+]/g, ''); // Keep only digits and the "+" symbol
+};
 
+// WebSocket connection
 wss.on('connection', (ws, request) => {
   console.log('Client connected');
 
-  // Extract session ID from cookies
   const cookies = request.headers.cookie || '';
-  const sessionCookie = cookies.split(';').find(cookie => cookie.trim().startsWith('connect.sid='));
+  let sessionId = null;
 
-  if (!sessionCookie) {
-    console.error('No session ID found in cookies');
-    ws.close(4000, 'Authentication error');
-    return;
-  }
-
-  const sessionId = sessionCookie.split('=')[1];
-  console.log('Session ID extracted:', sessionId);
-
-  // Query the database to get session data based on the session ID
-  pool.query('SELECT sess FROM academics.session WHERE sid = $1', [sessionId])
-    .then(result => {
-      if (result.rows.length > 0) {
-        const sessionData = JSON.parse(result.rows[0].sess); // Parse session data
-        ws.session = sessionData; // Attach session data to WebSocket
-        console.log('Session data attached to WebSocket:', ws.session);
-
-        // Track this client by their phone number
-        const userPhoneNumber = ws.session.user.phone_number;
-        clients.set(userPhoneNumber, ws);
-
-        ws.on('message', async (message) => {
-          console.log('Received:', message);
-          try {
-            const { receiver, text } = JSON.parse(message);
-
-            // Save message to the database
-            await pool.query(
-              'INSERT INTO academics.messages (sender_phone_number, receiver_phone_number, message) VALUES ($1, $2, $3)',
-              [userPhoneNumber, receiver, text]
-            );
-
-            // Send message only to the receiver if they're connected
-            const receiverClient = clients.get(receiver);
-            if (receiverClient && receiverClient.readyState === WebSocket.OPEN) {
-              receiverClient.send(JSON.stringify({ sender: userPhoneNumber, receiver, text }));
-            }
-          } catch (error) {
-            console.error('Error handling message:', error);
-          }
-        });
-
-      } else {
-        console.error('Session not found for ID:', sessionId);
-        ws.close(4000, 'Authentication error');
-      }
-    })
-    .catch(err => {
-      console.error('Session query error:', err);
-      ws.close(4000, 'Authentication error');
-    });
-
-  ws.on('close', () => {
-    console.log('Client disconnected');
-    // Remove client from the map when they disconnect
-    if (ws.session && ws.session.user && ws.session.user.phone_number) {
-      clients.delete(ws.session.user.phone_number);
+  // Extract session ID from cookies
+  cookies.split(';').forEach(cookie => {
+    if (cookie.trim().startsWith('connect.sid=')) {
+      sessionId = decodeURIComponent(cookie.split('=')[1].split('.')[0]); // Decode and handle signed cookies
     }
+  });
+
+  // Temporarily comment out session validation (you can uncomment after ensuring proper validation)
+  /*
+  if (sessionId) {
+    pool.query('SELECT sess FROM academics.session WHERE sid = $1', [sessionId])
+      .then(result => {
+        if (result.rows.length > 0) {
+          ws.session = JSON.parse(result.rows[0].sess);
+          console.log('Session data:', ws.session); // Log the session data for debugging
+        } else {
+          console.error('Session not found');
+          ws.close(4000, 'Authentication error');
+        }
+      })
+      .catch(err => {
+        console.error('Session query error:', err);
+        ws.close(4000, 'Authentication error');
+      });
+  } else {
+    console.error('No session ID found');
+    ws.close(4000, 'Authentication error');
+  }
+  */
+
+  // Assign the phone number to the WebSocket connection (you'll pass the phone number in a message)
+  ws.on('message', async (message) => {
+    const messageString = message.toString();
+    console.log('Received:', messageString);
+
+    try {
+      const { sender, receiver, text } = JSON.parse(messageString);
+
+      // Normalize the sender and receiver phone numbers
+      const normalizedSender = normalizePhoneNumber(sender);
+      const normalizedReceiver = normalizePhoneNumber(receiver);
+
+      // Store the normalized sender's phone number in the WebSocket instance
+      ws.senderPhoneNumber = normalizedSender;
+
+      // Step 1: Insert the message into the database
+      await pool.query(
+        'INSERT INTO academics.messages (sender_phone_number, receiver_phone_number, message) VALUES ($1, $2, $3)',
+        [normalizedSender, normalizedReceiver, text]
+      );
+
+      // Step 2: Update the chats table with the last message details
+      await pool.query(
+        `INSERT INTO academics.chats (user_phone_number, contact_phone_number, last_message, last_message_timestamp)
+         VALUES ($1, $2, $3, CURRENT_TIMESTAMP)
+         ON CONFLICT (user_phone_number, contact_phone_number)
+         DO UPDATE SET last_message = $3, last_message_timestamp = CURRENT_TIMESTAMP`,
+        [
+          normalizedSender,
+          normalizedReceiver,
+          text,
+        ]
+      );
+
+      // Step 3: Send the message only to the client with the matching normalized receiver's phone number
+      wss.clients.forEach(client => {
+        if (client.readyState === WebSocket.OPEN && client.senderPhoneNumber === normalizedReceiver) {
+          client.send(JSON.stringify({ sender: normalizedSender, receiver: normalizedReceiver, text }));
+        }
+      });
+    } catch (error) {
+      console.error('Error handling message:', error);
+    }
+  });
+
+  ws.on('close', (code, reason) => {
+    console.log(`Client disconnected (Code: ${code}, Reason: ${reason})`);
   });
 
   ws.on('error', (error) => {
@@ -123,6 +133,6 @@ wss.on('connection', (ws, request) => {
   });
 });
 
-server.listen(3000, () => {
-  console.log('Server is running on port 3000');
+server.listen(4000, () => {
+  console.log('Server is running on port 4000');
 });
