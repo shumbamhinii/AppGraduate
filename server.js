@@ -16,9 +16,12 @@ const WebSocket = require('ws');
 
 
 const pool = new Pool({
-  connectionString: 'postgresql://postgres.njxnfubjncszurmhtfoc:Hunzamabhisvo%2319@aws-0-eu-central-1.pooler.supabase.com:6543/postgres', // Use the environment variable for connection
-
-});
+  user: 'postgres.fyicvakkuqjejskhmrwa',
+  host: 'aws-0-eu-central-1.pooler.supabase.com',
+  database: 'postgres', // default Supabase database
+  password: 'Hunzamabhisvo#19', // Enter your password here
+  port: 6543,
+})
 
 
 const app = express();
